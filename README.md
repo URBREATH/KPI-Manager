@@ -151,6 +151,7 @@ When you first open DE KPI Manager, you’ll be presented with the main dashboar
 ---
 
 <h3 id="defining-kpis">4. Defining KPIs</h3>
+
 ![image](https://github.com/user-attachments/assets/c5ff02d9-b479-4d5b-b53f-da8b8fbf9d9b)
 
 After clicking "SAVE," the next step is to define the KPI in detail by setting the ideal value, choosing the unit of measure, and linking relevant measures or existing KPIs that will contribute to the calculation of this KPI. Here's how to complete the definition step:
@@ -202,6 +203,7 @@ If your KPI has a geographic position, use the map section to select or visualiz
 ---
 
 <h3 id="writing-kpis-formula">5. Writing KPI’s Formula</h3>
+
 ![image](https://github.com/user-attachments/assets/e76170fc-7c8c-4181-aebf-25187770ea82)
 
 After defining your KPI, the next crucial step is to create the formula that will be used to calculate the KPI values. The formula is constructed using the measures you have linked to the KPI during the definition phase. Here’s a detailed guide on how to create a valid KPI formula:
@@ -261,7 +263,9 @@ These steps ensure that your KPI is calculated correctly based on the available 
 ---
 
 <h3 id="selecting-kpis-dashboard">6. Selecting KPI’s Dashboard</h3>
+
 ![image](https://github.com/user-attachments/assets/6c1d7068-7987-4b5f-81f9-081875c68909)
+
 The dashboard section allows you to select the type of chart that best suits the data and provides an effective visual summary of the KPI's performance. Here’s how to select the dashboard for your KPI:
 
 ### 1. Choosing a Chart Type:
@@ -293,10 +297,11 @@ Selecting the right dashboard visualization ensures that your KPI is effectively
 ---
 
 <h3 id="kpis-summary">7. KPI’s Summary</h3>
+
 ![image](https://github.com/user-attachments/assets/76f7c156-3115-4d42-9253-c28a4514ad1c)
 ![image](https://github.com/user-attachments/assets/a5f2ede0-d543-4fd0-bb05-312e35de3520)
 
-### 1. Reviewing KPI Details:
+## 1. Reviewing KPI Details:
 
 The Summary section displays all the information you have entered in the previous steps:
 
@@ -316,7 +321,7 @@ The Summary page also includes key performance indicators such as:
 
 These indicators help you quickly assess the overall setup and expected performance metrics.
 
-### 3. Status Toggle:
+## 3. Status Toggle:
 
 At the top of the Summary section, there is a Status toggle that indicates whether the KPI is currently active or stopped.
 
@@ -324,21 +329,21 @@ At the top of the Summary section, there is a Status toggle that indicates wheth
 
 Ensure that the KPI status is set to active if you want it to start collecting and displaying data immediately after saving.
 
-### 4. Final Adjustments:
+## 4. Final Adjustments:
 
 If you notice any errors or if something needs to be adjusted, you can go back to the relevant section (Definition, Formula, or Dashboard) using the navigation tabs at the top.
 
 ![image](https://github.com/user-attachments/assets/809bc52c-3e4f-4d7a-acaa-d1dbca0110a2)
 
-### 5. Saving the KPI:
+## 5. Saving the KPI:
 
 Once you are satisfied with the setup, click the "UPDATE" or "SAVE" button to save the KPI. This will apply all settings and start the KPI monitoring process according to the specified schedule.
 
-### 6. Cancelling:
+## 6. Cancelling:
 
 If you decide not to save the KPI or want to discard all changes, click the "CANCEL" button. This will exit the KPI creation process without saving any of the changes made.
 
-### Important Notes:
+## Important Notes:
 
 - **Status Monitoring**: After saving, you can always return to the KPI dashboard to monitor its status and make further adjustments if needed.
 - **Empty Data Collection**: If there are no data collected for a KPI, a notification message will appear on the screen indicating that the KPI is currently empty. This message will inform you that the data shown on the page are for demonstration purposes only.
@@ -347,7 +352,7 @@ If you decide not to save the KPI or want to discard all changes, click the "CAN
 
 <h3 id="managing-kpis">8. Managing KPIs</h3>
 
-### Viewing and Editing KPIs:
+## Viewing and Editing KPIs:
 
 - From the KPI list, click on any KPI to view or edit its details.
 - You can modify the formula, dashboard appearance, and summary from this view.
@@ -366,7 +371,7 @@ Use the three-dot menu next to each KPI for the following options:
 
 <h3 id="customizing-views">9. Customizing Views</h3>
 
-### Items Per Page:
+## Items Per Page:
 
 - Adjust the number of KPIs shown per page using the dropdown at the bottom of the KPI list.
 
@@ -376,11 +381,11 @@ Use the three-dot menu next to each KPI for the following options:
 
 <h3 id="saving-and-exporting">10. Saving and Exporting</h3>
 
-### Exporting KPIs:
+## Exporting KPIs:
 
 - • Use the export function to download the KPI data in a compatible format for reporting or further analysis.
 
-### Automatic Updates:
+## Automatic Updates:
 
 - • KPI values are updated according to the schedule defined in the formula section, ensuring real-time data availability.
 

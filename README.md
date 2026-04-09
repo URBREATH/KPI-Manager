@@ -410,3 +410,10 @@ This concludes the user guide for the DE KPI Manager. With this information, you
 #### Disclaimer
 
 The URBREATH project is co-funded by the European Union under grant agreement ID 101139711. The information and views set out in this document are those of the URBREATH Consortium and do not necessarily reflect those of the European Union. Neither the European Union nor the granting authority can be held responsible for them.
+
+### Dependencies and contacts
+| | |
+|-----------|-------|
+| Dependencies | Kubernetes, PostgreSQL, Telegraf, InfluxDB, Kafka |
+| Contacts | rita.gaeta@eng.it |
+| License | Proprietary |

@@ -13,10 +13,9 @@
 
 <h3 id="description">Description</h3>
 
-The KPI Manager (part of the Digital Enabler platform) is designed to track, analyze, and manage key performance indicators effectively.  
-Its primary purpose is to provide insights into the performance of various aspects of an organization, a project, a solution, enabling informed decision-making and strategic planning.  
-It acts as a central hub for aggregating data from various sources. By consolidating data from disparate systems and databases, the KPI Manager provides a unified view of performance metrics.  
-Through intuitive visualization tools such as dashboards, charts, and graphs, KPI Manager presents KPIs in a clear and accessible manner. This allows stakeholders to quickly see trends, patterns, and outliers within the data, facilitating informed decision-making.
+The KPI Manager is designed to track, analyse, and manage key performance indicators effectively.
+Its primary purpose is to provide insights into the performance of various aspects of an organization, a project, a solution, enabling informed decision-making and strategic planning.
+It acts as a central hub for aggregating data from various sources. By consolidating data from disparate systems and databases, the KPI Manager provides a unified view of performance metrics. Through intuitive visualization tools such as dashboards, charts, and graphs, KPI Manager presents KPIs in a clear and accessible manner. This allows stakeholders to quickly see trends, patterns, and outliers within the data, facilitating informed decision-making.
 
 <h3 id="images">Images</h3>
 

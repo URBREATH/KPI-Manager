@@ -54,7 +54,7 @@ Coming soon.
 
 <h3 id="user-guide">User Guide</h3>
 
-DOWNLOAD PDF VERSION: [KPI Manager – User Guide](<https://github.com/URBREATH/KPI-Manager/blob/main/DE%20KPI%20Manager%20-%20User%20Guide%20(WIP).pdf>)
+DOWNLOAD PDF VERSION: [KPI Manager – User Guide](<https://github.com/URBREATH/KPI-Manager/blob/main/kpi-manager-user-guide%20(7).pdf>)
 
 # KPI Manager – User Guide
 

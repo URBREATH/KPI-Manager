@@ -68,7 +68,7 @@ The main functionalities provided by the KPI Manager include:
 
 ## Images
 
-![KPI Manager Dashboard](./images/kpi-manager-dashboard.png)
+![KPI Manager Dashboard](./images/kpis_list.png)
 
 ![KPI Manager](./images/kpi-manager.png)
 

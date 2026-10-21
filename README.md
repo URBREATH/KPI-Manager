@@ -125,9 +125,14 @@ The guide covers the complete KPI management workflow, including KPI creation, d
 |---|---|
 | **Dependencies** | Kubernetes, PostgreSQL, Apache Kafka, Telegraf, InfluxDB |
 | **Contact** | rita.gaeta@eng.it |
-| **License** | Proprietary |
+
 
 ---
+
+## License
+
+This project is licensed under the Apache License 2.0.
+See the [LICENSE](LICENSE) file for details.
 
 ## URBREATH Project
 

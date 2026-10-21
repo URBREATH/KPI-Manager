@@ -1,0 +1,43 @@
+{
+  "languages": {
+    "en": "English",
+    "es": "Espanol",
+    "it": "Italiano",
+    "cs": "Čeština",
+    "da": "Dansk",
+    "de": "Deutsch",
+    "el": "Ελληνικά",
+    "fi": "Suomi",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "ro": "Română"
+  },
+  "labels": {
+    "language": "Language",
+    "my-profile": "My profile",
+    "logout": "Logout",
+    "mashups": "Mashups",
+    "services": "Services",
+    "flows": "Flows",
+    "custom-operators": "Custom Operators",
+    "datasources": "Datasources",
+    "favorites": "Favorites",
+    "home": "Home",
+    "all-services": "All services",
+    "contexts": "Contexts",
+    "docs": "Docs",
+    "help-support": "Help & support",
+    "remove-favorite-tooltip": "Remove favorite service",
+    "databases": "Databases",
+    "rules": "Rules",
+    "kpis": "KPIs",
+    "measures": "Measures",
+    "public-kpis": "Public KPIs"
+    
+  },
+  "strings": {
+    "favorite-text-first": "Your favorite services will appear here.",
+    "favorite-text-second": "To add a service to your favorites, click the star next to its name.",
+    "overlay-text": "Please use a device with a minimum base resolution of 1024x768 in landscape mode for a better overall experience."
+  }
+}

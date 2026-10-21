@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const publisherController_1 = require("../controllers/publisherController");
+const publishRoutes = (0, express_1.Router)();
+publishRoutes.post('/kpi/publish/:id', publisherController_1.publishKpi);
+publishRoutes.get('/kpi/orion/:id/status', publisherController_1.getOrionKpiStatusController);
+publishRoutes.delete('/kpi/orion/:id', publisherController_1.deleteKpiFromOrionController);
+publishRoutes.post('/dataset/publish', publisherController_1.publishDataset);
+publishRoutes.post('/frostserver/publish/:id', publisherController_1.publishFrostServer);
+exports.default = publishRoutes;

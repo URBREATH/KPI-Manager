@@ -1,0 +1,127 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano"
+  },
+  "labels": {
+    "page-title": "Measures",
+    "search": "search",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "back": "Back",
+    "save": "Save",
+    "name": "Name",
+    "type": "Type",
+    "description": "Description",
+    "method": "Method",
+    "protocol": "Protocol",
+    "username": "Username",
+    "access-Key": "Access key",
+    "database-name": "Database name",
+    "collection-name": "Collection name",
+    "delete": "Delete",
+    "update": "Update",
+    "reset": "Reset",
+    "yes": "yes",
+    "no": "no",
+    "preview": "Preview",
+    "bucket": "Bucket",
+    "organization": "Organization",
+    "token": "Token",
+    "context": "Context"
+  },
+  "strings": {
+    "new-measure": "new measure",
+    "private-message": "Activate if connection to source is private.",
+    "private-advice-policy": "N.B. In Edit mode, due to security policy, you cannot see your saved credentials. Enter the new credentials if they have changed.",
+    "private-connection": "Private connection:",
+    "delete-measure-question": "Are you sure you want delete this Measure?",
+    "measure-deleted": "Measure deleted",
+    "measure-preview": "Measure preview",
+    "measure-has": "The measure has",
+    "values": "values",
+    "show-details": "Show all values",
+    "measure-parameters-alert": "There is a connection problem with the Measure source.\nCheck the provided parameters.",
+    "name-required": "Name is required",
+    "name-less-20-chars": "The maximum length allowed is 20 characters",
+    "value-required": "A value is required",
+    "preview-warning": "NOTE: This is just a preview, save or update to mantain changes.",
+    "context-hint": "Defines the context in which this measure is evaluated.",
+"name-hint": "Name used to identify this measure (max 20 characters).",
+"type-hint": "Select the data source type used to retrieve the measure.",
+"description-hint": "Optional description to explain the purpose of this measure.",
+"method-hint": "HTTP method used to call the REST endpoint.",
+"protocol-hint": "Communication protocol used to connect to the data source.",
+"url-hint": "Endpoint address used to retrieve the data.",
+"port-hint": "Network port used to connect to the data source.",
+"jsonpath-hint": "JsonPath expression used to extract the value from the response.",
+"private-connection-hint": "Enable this option if the data source is accessible only from a private network.",
+"username-hint": "Username used for authentication.",
+"organization-hint": "Organization name used for authentication.",
+"access-key-hint": "Access key used to authenticate the request.",
+"token-hint": "Authentication token used to access the data source.",
+"headers-hint": "Optional HTTP headers sent with the request.",
+"body-hint": "Request payload sent to the REST endpoint.",
+"query-hint": "Query used to retrieve the measure value from the database.",
+"schedule-hint": "Defines how often the KPI is executed (e.g. once a week, every 2 hours)."
+
+  },
+  "errors": {},
+  
+  "tour": {
+    "help": "Start guide",
+    "next": "Next",
+    "back": "Back",
+    "done": "Done",
+    "measure": {
+      "title": "Create a measure",
+      "intro": "A measure defines where the data for KPIs comes from.\nFollow these steps to set it up correctly."
+    },
+    "context": {
+      "title": "Context",
+      "desc": "The context indicates the area in which the measure is used."
+    },
+    "name": {
+      "title": "Name",
+      "desc": "Use a clear name:\nIt will be displayed in the KPIs."
+    },
+    "type": {
+      "title": "Type",
+      "desc": "The type indicates how to retrieve the data\n(API REST, database)."
+    },
+    "description": {
+    "title": "Description",
+    "desc": "Enter an optional description to explain the purpose of the measure.\nIt will help you understand it when reusing it in KPIs."
+  },
+  "method": {
+    "title": "Method",
+    "desc": "Select the HTTP method used to call the REST endpoint.\n\nGET retrieves data.\nPOST sends data to the server."
+  },
+  "protocol": {
+    "title": "Protocol",
+    "desc": "Defines the communication protocol used to connect to the data source."
+  },
+    "url": {
+      "title": "URL",
+      "desc": "Specify the data source address.\nThe protocol is handled automatically."
+    },
+    "mapping": {
+      "title": "JsonPath",
+      "desc": "Here you define how to extract the numeric value from the response or database."
+    },
+    "security": {
+      "title": "Private connection",
+      "desc": "Enable this option if the source is protected or only accessible with credentials."
+    },
+    "auth": {
+      "title": "Authentication",
+      "desc": "Enter the credentials required to access the data.\nThe information is stored securely."
+    },
+    "end": {
+      "title": "End",
+      "desc": "Great!\nYou can now use this measure to create one or more KPIs."
+    }
+  }
+
+
+}

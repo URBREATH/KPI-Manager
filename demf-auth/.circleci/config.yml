@@ -1,0 +1,100 @@
+version: 2.1
+
+defaults: &defaults
+  docker:
+    - image: cimg/node:16.14
+
+jobs:
+  build:
+    <<: *defaults
+
+    steps:
+      - checkout
+
+      - run:
+          name: Install npm dependencies
+          command: |
+            cd ~/project/app
+            npm install
+
+      - run:
+          name: Build npm package
+          command: |
+            cd ~/project/app
+            npm run build:prod
+
+      - run:
+          name: Prepare bundle
+          command: |
+            mv ~/project/app/dist/js/*.js ~/project/app/dist/
+            mv ~/project/app/dist/js/*.js.map ~/project/app/dist/
+            cp ~/project/README.md ~/project/app/dist/README.md
+            cp ~/project/app/package.json ~/project/app/dist/package.json
+            rm -rf ~/project/app/dist/js; rm ~/project/app/dist/index.html
+
+      - persist_to_workspace:
+          root: ~/project/app/dist
+          paths:
+            - .
+
+  deploy:
+    <<: *defaults
+
+    steps:
+      - attach_workspace:
+          at: ~/project/dist
+
+      - run:
+          name: Authenticate with registry
+          command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
+
+      - run:
+          name: Publish package
+          command: npm publish --access=public ~/project/dist
+
+workflows:
+  version: 2
+
+  nightly:
+    jobs:
+      - build:
+          context: digitalenabler-core
+    triggers:
+      - schedule:
+          cron: "0 3 * * 2-6"
+          filters:
+            branches:
+              only:
+                - main
+
+  build-and-deploy:
+    jobs:
+      - build:
+          context: digitalenabler-core
+      - deploy:
+          context: digitalenabler-core
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - main
+
+  build-and-deploy-tag:
+    jobs:
+      - build:
+          context: digitalenabler-core
+          filters:
+            tags:
+              only: /^v.*/
+            branches:
+              ignore: /.*/
+      - deploy:
+          context: digitalenabler-core
+          requires:
+            - build
+          filters:
+            tags:
+              only: /^v.*/
+            branches:
+              ignore: /.*/

@@ -1,0 +1,28 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "target-value": "Zielwert",
+    "min-value": "Min",
+    "max-value": "Max",
+    "avg-value": "Durchschnitt",
+    "cancel": "Abbrechen",
+    "continue": "Weitermachen",
+    "back": "Zurück"
+  },
+  "strings": {
+    "dashboard-suggestion": "Wählen Sie den Diagrammtyp aus, mit dem Sie KPI-Werte anzeigen möchten"
+  },
+  "errors": {}
+}

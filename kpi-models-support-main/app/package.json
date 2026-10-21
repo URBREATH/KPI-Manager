@@ -1,0 +1,49 @@
+{
+  "name": "@he_hurbreath/kpi-models-support-main",
+  "version": "2.1.6",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "@he-urbreath:registry": "https://production.eng.it/gitlab/api/v4/projects/17698/packages/npm/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://production.eng.it/gitlab/he_hurbreath/kpi-models-support-main.git"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.compile.json",
+    "start:dev": "tsnd --inspect=127.0.0.1:9235 --ignore-watch node_modules --respawn --transpile-only -r tsconfig-paths/register --rs src/index.ts",
+    "test": "mocha --require ts-node/register test/**/*.test.ts"
+  },
+  "keywords": [],
+  "author": "Claudio Bellanti",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "class-transformer": "^0.5.1",
+    "dotenv": "^16.4.5",
+    "reflect-metadata": "^0.2.2",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "tslib": "^2.6.2",
+    "tslog": "^4.8.2",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/cors": "^2.8.13",
+    "@types/http-errors": "^2.0.1",
+    "@types/jsonpath": "^0.2.4",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.2.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "KPI-mittarit",
+    "search": "haku",
+    "definition": "Määritelmä",
+    "formula": "Kaava",
+    "dashboard": "Työpöytä",
+    "summary": "Yhteenveto",
+    "page-title": "KPI-mittarit",
+    "modify": "Muokkaa",
+    "delete": "Poista",
+    "cancel": "Peruuta"
+  },
+  "strings": {
+    "delete-kpi-question": "Haluatko varmasti poistaa tämän KPI-mittarin?",
+    "kpi-deleted": "KPI-mittari poistettu"
+  },
+  "errors": {}
+}

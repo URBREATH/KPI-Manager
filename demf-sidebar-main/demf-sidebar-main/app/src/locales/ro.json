@@ -1,0 +1,42 @@
+{
+  "languages": {
+    "en": "English",
+    "es": "Espanol",
+    "it": "Italiano",
+    "cs": "Čeština",
+    "da": "Dansk",
+    "de": "Deutsch",
+    "el": "Ελληνικά",
+    "fi": "Suomi",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "ro": "Română"
+  },
+  "labels": {
+    "language": "Limbă",
+    "my-profile": "Profilul meu",
+    "logout": "Deconectare",
+    "mashups": "Mashups",
+    "services": "Servicii",
+    "flows": "Fluxuri",
+    "custom-operators": "Operatori personalizați",
+    "datasources": "Surse de date",
+    "favorites": "Favorite",
+    "home": "Acasă",
+    "all-services": "Toate serviciile",
+    "contexts": "Contexte",
+    "docs": "Documente",
+    "help-support": "Ajutor & suport",
+    "remove-favorite-tooltip": "Elimină serviciu favorit",
+    "databases": "Baze de date",
+    "rules": "Reguli",
+    "kpis": "KPIs",
+    "measures": "Măsuri",
+    "public-kpis": "KPI-uri publice"
+  },
+  "strings": {
+    "favorite-text-first": "Serviciile tale favorite vor apărea aici.",
+    "favorite-text-second": "Pentru a adăuga un serviciu la favorite, dă clic pe stea de lângă nume.",
+    "overlay-text": "Vă rugăm să utilizați un dispozitiv cu rezoluție minimă de 1024×768 în modul peisaj pentru o experiență mai bună."
+  }
+}

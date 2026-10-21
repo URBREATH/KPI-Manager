@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "commonjs",
+    "target": "ES2020",
+    "sourceMap": true,
+    "declaration": true,                // ✅ Genera i .d.ts
+    "declarationDir": "dist",           // ✅ Dove mettere i .d.ts
+    "outDir": "dist",                   // ✅ Dove mettere .js e .d.ts
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "suppressImplicitAnyIndexErrors": false,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "newLine": "LF",
+    "noEmit": false,                    // ✅ Cambia da true a false
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/types"
+    ],
+    "lib": ["ES2020"]
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "public",
+    "test"
+  ]
+}

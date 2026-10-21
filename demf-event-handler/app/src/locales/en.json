@@ -1,0 +1,33 @@
+{
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "it": "Italiano"
+  },
+  "labels": {
+    "ok": "OK",
+    "open": "Open",
+    "close": "Close",
+    "login": "Login",
+    "cancel": "Cancel"
+  },
+  "errors": {
+    "request": {
+      "bad_request": "Bad request",
+      "bad_request_msg": "The request sent to the server is incorrect",
+      "unauthorized": "Session expired",
+      "unauthorized_msg": "Your session has expired or the user has been logged out.",
+      "unauthorized_msg2": "Click here to log in again.",
+      "prohibited": "No permission to access",
+      "forbidden_msg": "You do not have the necessary permissions to access",
+      "not_found": "Not found",
+      "not_found_msg": "The requested resource was not found",
+      "conflict": "Conflict",
+      "conflict_msg": "The request conflicts with the current state of the server",
+      "server_error": "Server error",
+      "server_error_msg": "The server threw an error",
+      "unprocessable_entity": "Unprocessable Entity",
+      "unprocessable_entity_msg": "A nested Mashup or version is invalid. Fix the problems first."
+    }
+  }
+}

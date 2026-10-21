@@ -1,0 +1,32 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "KPI",
+    "search": "vyhledávání",
+    "definition": "Definice",
+    "formula": "Vzorec",
+    "dashboard": "Dashboard",
+    "summary": "Shrnutí",
+    "page-title": "KPI",
+    "modify": "Upravit",
+    "delete": "Vymazat",
+    "cancel": "Zrušit"
+  },
+  "strings": {
+    "delete-kpi-question": "Opravdu chcete tento KPI smazat?",
+    "kpi-deleted": "KPI smazáno"
+  },
+  "errors": {}
+}

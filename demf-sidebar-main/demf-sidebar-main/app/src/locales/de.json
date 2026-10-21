@@ -1,0 +1,42 @@
+{
+  "languages": {
+    "en": "English",
+    "es": "Espanol",
+    "it": "Italiano",
+    "cs": "Čeština",
+    "da": "Dansk",
+    "de": "Deutsch",
+    "el": "Ελληνικά",
+    "fi": "Suomi",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "ro": "Română"
+  },
+  "labels": {
+    "language": "Sprache",
+    "my-profile": "Mein Profil",
+    "logout": "Abmelden",
+    "mashups": "Mashups",
+    "services": "Dienste",
+    "flows": "Abläufe",
+    "custom-operators": "Eigene Operatoren",
+    "datasources": "Datenquellen",
+    "favorites": "Favoriten",
+    "home": "Startseite",
+    "all-services": "Alle Dienste",
+    "contexts": "Kontexte",
+    "docs": "Dokumente",
+    "help-support": "Hilfe & Support",
+    "remove-favorite-tooltip": "Favoritdienst entfernen",
+    "databases": "Datenbanken",
+    "rules": "Regeln",
+    "kpis": "KPIs",
+    "measures": "Messwerte",
+    "public-kpis": "Öffentliche KPIs"
+  },
+  "strings": {
+    "favorite-text-first": "Ihre Favorit‑Dienste werden hier angezeigt.",
+    "favorite-text-second": "Um einen Dienst zu den Favoriten hinzuzufügen, klicken Sie auf den Stern neben dem Namen.",
+    "overlay-text": "Bitte verwenden Sie ein Gerät mit mindestens 1024×768 Auflösung im Querformat für eine bessere Nutzererfahrung."
+  }
+}

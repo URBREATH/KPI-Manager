@@ -1,0 +1,50 @@
+{
+  "labels": {
+    "page-title": "KPI",
+    "delete": "Διαγραφή",
+    "cancel": "Ακύρωση",
+    "title": "Τίτλος",
+    "description": "Περιγραφή",
+    "accessUrl": "URL πρόσβασης",
+    "format": "Μορφή",
+    "license": "Άδεια χρήσης",
+    "frequency": "Συχνότητα",
+    "theme": "Θέμα",
+    "publisher": "Εκδότης",
+    "customTags": "Προσαρμοσμένες ετικέτες",
+    "location": "Τοποθεσία",
+    "distribution": "Διανομή",
+    "dataset": "Σύνολο δεδομένων",
+    "next": "Επόμενο",
+    "back": "Πίσω",
+    "publish": "Δημοσίευση",
+    "close": "Κλείσιμο"
+  },
+  "strings": {
+    "tagsPlaceholder": "Πληκτρολογήστε και πατήστε Enter",
+    "delete-kpi-question": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το KPI;",
+    "kpi-deleted": "Το KPI διαγράφηκε με επιτυχία.",
+    "publishCompleted": "Η δημοσίευση ολοκληρώθηκε",
+    "publishSuccess": "Το KPI δημοσιεύτηκε με επιτυχία ως σύνολο δεδομένων στο Urbreath Catalogue.",
+    "publishFailed": "Η δημοσίευση απέτυχε",
+    "publishAlreadyExists": "Αυτό το σύνολο δεδομένων ή η διανομή υπάρχει ήδη στο Urbreath Catalogue.",
+    "publishError": "Παρουσιάστηκε σφάλμα κατά τη δημοσίευση.",
+    "historicalDataTitle": "Ιστορικά δεδομένα για {name}",
+    "historicalDataDescription": "Χρονοσειρά τιμών KPI"
+  },
+  "themes": {
+    "agriculture": "Γεωργία",
+    "economy": "Οικονομία",
+    "education": "Εκπαίδευση",
+    "environment": "Περιβάλλον",
+    "energy": "Ενέργεια",
+    "government": "Δημόσια διοίκηση",
+    "health": "Υγεία",
+    "justice": "Δικαιοσύνη",
+    "international": "Διεθνή",
+    "regions": "Περιφέρειες",
+    "society": "Κοινωνία",
+    "technology": "Τεχνολογία",
+    "transportation": "Μεταφορές"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "KPI's",
+    "search": "zoeken",
+    "cancel": "Annuleren",
+    "continue": "Doorgaan",
+    "back": "Terug",
+    "save": "Opslaan",
+    "status": "Status",
+    "status-running": "Lopend",
+    "status-stopped": "Gestopt",
+    "description": "Beschrijving",
+    "target-value": "Doel",
+    "minimum": "Minimum",
+    "maximum": "Maximaal",
+    "average": "Gemiddeld",
+    "kpi-formula": "KPI-formule",
+    "schedule": "Inplannen van elke:",
+    "hour": "uren",
+    "minute": "minuten",
+    "second": "seconden",
+    "day": "dagen",
+    "week": "weken",
+    "month": "maanden",
+    "quarter": "kwartalen",
+    "year": "jaren",
+    "update": "Update",
+    "unit-measure": "Eenheidsmaat"
+  },
+  "strings": {
+    "mockup-alert": "De KPI is momenteel leeg. De gegevens op deze pagina zijn alleen ter demonstratie.",
+    "no-measure-formula": "Ga terug naar de formule en gebruik een geselecteerde KPI of maatregel.",
+    "status-changed": "Update om wijzigingen toe te passen"
+  },
+  "errors": {},
+  "measures": {}
+}

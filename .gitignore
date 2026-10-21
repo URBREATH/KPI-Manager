@@ -1,0 +1,14 @@
+﻿node_modules/
+**/node_modules/
+.env
+.env.*
+!.env.example
+dist/
+build/
+coverage/
+.nyc_output/
+.DS_Store
+Thumbs.db
+**/token.txt
+**/token_vault.txt
+**/.npmrc'

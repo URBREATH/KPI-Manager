@@ -1,0 +1,28 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "target-value": "Tavoitearvo",
+    "min-value": "Min",
+    "max-value": "Max",
+    "avg-value": "Keskiarvo",
+    "cancel": "Peruuta",
+    "continue": "Jatka",
+    "back": "Palaa"
+  },
+  "strings": {
+    "dashboard-suggestion": "Valitse kaaviotyyppi, jolla haluat näyttää KPI-arvot"
+  },
+  "errors": {}
+}

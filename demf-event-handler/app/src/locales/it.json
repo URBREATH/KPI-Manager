@@ -1,0 +1,33 @@
+{
+  "languages": {
+    "en": "English",
+    "es": "Español",
+    "it": "Italiano"
+  },
+  "labels": {
+    "cancel": "Annulla",
+    "ok": "OK",
+    "login": "Login",
+    "close": "Chiudi",
+    "open": "Apri"
+  },
+  "errors": {
+    "request": {
+      "bad_request": "Richiesta sbagliata",
+      "bad_request_msg": "Richiesta inviata al server non è corretta",
+      "unauthorized": "Sessione scaduta",
+      "unauthorized_msg": "La tua sessione è scaduta o l'utente è stato disconnesso.",
+      "unauthorized_msg2": "Clicca qui per accedere di nuovo.",
+      "forbidden": "Nessun autorizzazione",
+      "forbidden_msg": "Non hai le autorizzazioni necessarie per accedere",
+      "not_found": "Non trovato",
+      "not_found_msg": "La risorsa richiesta non è stata trovata",
+      "conflict": "Conflitto",
+      "conflict_msg": "La richiesta è in conflitto con lo stato corrente del server",
+      "server_error": "Errore del server",
+      "server_error_msg": "Il server ha generato un errore",
+      "unprocessable_entity": "Entità non elaborabile",
+      "unprocessable_entity_msg": "Un Mashup nidificato o una versione non è valida. Risolvi prima i problemi."
+    }
+  }
+}

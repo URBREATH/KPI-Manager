@@ -1,0 +1,143 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano"
+  },
+  "labels": {
+    "page-title": "Misure",
+    "search": "cerca",
+    "cancel": "Annulla",
+    "continue": "Continua",
+    "back": "Indietro",
+    "save": "Salva",
+    "name": "Nome",
+    "type": "Tipo",
+    "description": "Descrizione",
+    "method": "Metodo",
+    "protocol": "Protocollo",
+    "username": "Nome utente",
+    "access-Key": "Chiave di accesso",
+    "database-name": "Nome database",
+    "collection-name": "Nome collezione",
+    "delete": "Elimina",
+    "update": "Aggiorna",
+    "reset": "Ripristina",
+    "yes": "si",
+    "no": "no",
+    "preview": "Anteprima",
+    "bucket": "Bucket",
+    "organization": "Organizzazione",
+    "token": "Token",
+    "context": "Contesto"
+  },
+  "strings": {
+    "new-measure": "nuova misura",
+    "private-message": "Da attivare se la connessione alla sorgente è privata.",
+    "private-advice-policy": "N.B. In modalità Modifica, a causa dei criteri di sicurezza, non è possibile vedere le credenziali salvate. Inserisci le nuove credenziali se sono cambiate.",
+    "private-connection": "Connessione privata:",
+    "delete-measure-question": "Sei sicuro di voler eliminare questa misura?",
+    "measure-deleted": "Misura eliminata",
+    "measure-preview": "Anteprima della misura",
+    "measure-has": "La misura ha",
+    "values": "valori",
+    "show-details": "Mostra tutti i valori",
+    "measure-parameters-alert": "C'è un problema di connessione con la sorgente della Misura.\\nVerifica i parametri forniti.",
+    "name-required": "Il nome è obbligatorio",
+    "name-less-20-chars": "La massima lunghezza consentita è di 20 caratteri",
+    "value-required": "Un valore è obbligatorio",
+    "preview-warning": "NOTA: Questa è solo un'anteprima, salva o aggiorna per mantenere le modifiche.",
+    "context-hint": "Definisce il contesto in cui viene valutata questa misura.",
+"name-hint": "Nome usato per identificare questa misura (max 20 caratteri).",
+"type-hint": "Seleziona il tipo di sorgente dati usata per ottenere la misura.",
+"description-hint": "Descrizione opzionale per spiegare lo scopo di questa misura.",
+"method-hint": "Metodo HTTP usato per chiamare l'endpoint REST.",
+"protocol-hint": "Protocollo di comunicazione usato per connettersi alla sorgente dati.",
+"url-hint": "Indirizzo endpoint usato per ottenere i dati.",
+"port-hint": "Porta di rete usata per connettersi alla sorgente dati.",
+"jsonpath-hint": "Espressione JsonPath usata per estrarre il valore dalla risposta.",
+"private-connection-hint": "Abilita questa opzione se la sorgente dati è accessibile solo da rete privata.",
+"username-hint": "Username usato per l'autenticazione.",
+"organization-hint": "Nome dell'organizzazione usato per l'autenticazione.",
+"access-key-hint": "Chiave di accesso usata per autenticare la richiesta.",
+"token-hint": "Token di autenticazione usato per accedere alla sorgente dati.",
+"headers-hint": "Header HTTP opzionali inviati con la richiesta.",
+"body-hint": "Payload inviato all'endpoint REST.",
+"query-hint": "Query usata per ottenere il valore della misura dal database.",
+"schedule-hint": "Definisce ogni quanto viene eseguito il KPI (es. una volta a settimana, ogni 2 ore)."
+
+  },
+  "errors": {},
+
+ 
+"tour": {
+  "help": "Avvia guida",
+  "next": "Avanti",
+  "back": "Indietro",
+  "done": "Fine",
+
+  "measure": {
+    "title": "Crea misura",
+    "intro": "La misura definisce da dove provengono i dati che utilizzerai nel KPI.\nSegui questi passaggi per configurarla correttamente."
+  },
+
+  "context": {
+    "title": "Contesto",
+    "desc": "Il contesto determina l’ambito in cui viene utilizzata la misura\n(In questo progetto abbiamo un contesto per ogni città pilota)."
+  },
+
+  "name": {
+    "title": "Nome",
+    "desc": "Utilizza un nome chiaro e descrittivo:\nsarà visualizzato nel KPI."
+  },
+
+  "type": {
+    "title": "Tipo",
+    "desc": "Il tipo definisce come vengono recuperati i dati\n(REST API, database)."
+  },
+
+  "description": {
+    "title": "Descrizione",
+    "desc": "Inserisci una descrizione opzionale per spiegare lo scopo della misura.\nTi aiuterà a comprenderne il significato quando la riutilizzerai nei KPI."
+  },
+
+  "method": {
+    "title": "Metodo",
+    "desc": "Seleziona il metodo HTTP utilizzato per chiamare l’endpoint REST.\n\nGET recupera i dati.\nPOST invia dati al server."
+  },
+
+  "protocol": {
+    "title": "Protocollo",
+    "desc": "Definisce il protocollo di comunicazione utilizzato per connettersi alla sorgente dati."
+  },
+
+  "url": {
+    "title": "URL",
+    "desc": "Inserisci l’indirizzo della sorgente dati."
+  },
+
+  "mapping": {
+    "title": "JsonPath",
+    "desc": "Qui definisci come estrarre il valore numerico dalla risposta o dal database."
+  },
+
+  "security": {
+    "title": "Connessione privata",
+    "desc": "Abilita questa opzione se la sorgente è protetta\no accessibile solo tramite credenziali."
+  },
+
+  "auth": {
+    "title": "Autenticazione",
+    "desc": "Inserisci le credenziali necessarie per accedere ai dati.\nLe informazioni vengono archiviate in modo sicuro."
+  },
+
+  "end": {
+    "title": "Completato",
+    "desc": "Perfetto!\nOra puoi utilizzare questa misura per creare uno o più KPI "
+  }
+}
+  }
+
+
+
+
+

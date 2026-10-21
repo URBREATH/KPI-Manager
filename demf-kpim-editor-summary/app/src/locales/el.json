@@ -1,0 +1,50 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "KPI",
+    "search": "Αναζήτηση",
+    "cancel": "Ακύρωση",
+    "continue": "Συνέχεια",
+    "back": "Πίσω",
+    "save": "Αποθήκευση",
+    "status": "Κατάσταση",
+    "status-running": "Εκτέλεση",
+    "status-stopped": "Κατάσταση-στάσιμη",
+    "description": "Περιγραφή",
+    "target-value": "Τιμή - στόχος",
+    "minimum": "Ελάχιστο",
+    "maximum": "Μέγιστο",
+    "average": "Μέσος όρος",
+    "kpi-formula": "Τύπος KPI",
+    "schedule": "Προγραμματισμός",
+    "hour": "Ώρες",
+    "minute": "Πρακτικά",
+    "second": "Δευτερόλεπτα",
+    "day": "Ημέρες",
+    "week": "Εβδομάδες",
+    "month": "Μήνες",
+    "quarter": "Τρίμηνο",
+    "year": "Χρονιά",
+    "update": "Επικαιροποίηση",
+    "unit-measure": "Μέτρο μονάδας"
+  },
+  "strings": {
+    "mockup-alert": "Ο KPI είναι επί του παρόντος είναι κενός. Τα δεδομένα που εμφανίζονται σε αυτή τη σελίδα είναι μόνο για λόγους επίδειξης.",
+    "no-measure-formula": "Επιστρέψτε στον τύπο και χρησιμοποιήστε ένα επιλεγμένο KPI ή μέτρο.",
+    "status-changed": "Ενημέρωση για την εφαρμογή αλλαγών"
+  },
+  "errors": {},
+  "measures": {}
+}

@@ -1,0 +1,50 @@
+{
+  "labels": {
+    "page-title": "KPI",
+    "delete": "Smazat",
+    "cancel": "Zrušit",
+    "title": "Název",
+    "description": "Popis",
+    "accessUrl": "Přístupová URL",
+    "format": "Formát",
+    "license": "Licence",
+    "frequency": "Četnost",
+    "theme": "Téma",
+    "publisher": "Vydavatel",
+    "customTags": "Vlastní štítky",
+    "location": "Poloha",
+    "distribution": "Distribuce",
+    "dataset": "Datová sada",
+    "next": "Další",
+    "back": "Zpět",
+    "publish": "Publikovat",
+    "close": "Zavřít"
+  },
+  "strings": {
+    "tagsPlaceholder": "Napište text a stiskněte Enter",
+    "delete-kpi-question": "Opravdu chcete tento KPI smazat?",
+    "kpi-deleted": "KPI byl úspěšně smazán.",
+    "publishCompleted": "Publikování dokončeno",
+    "publishSuccess": "KPI byl úspěšně publikován jako datová sada v Urbreath Catalogue.",
+    "publishFailed": "Publikování selhalo",
+    "publishAlreadyExists": "Tato datová sada nebo distribuce již v Urbreath Catalogue existuje.",
+    "publishError": "Během publikování došlo k chybě.",
+    "historicalDataTitle": "Historická data pro {name}",
+    "historicalDataDescription": "Časová řada hodnot KPI"
+  },
+  "themes": {
+    "agriculture": "Zemědělství",
+    "economy": "Ekonomika",
+    "education": "Vzdělávání",
+    "environment": "Životní prostředí",
+    "energy": "Energetika",
+    "government": "Veřejná správa",
+    "health": "Zdravotnictví",
+    "justice": "Justice",
+    "international": "Mezinárodní vztahy",
+    "regions": "Regiony",
+    "society": "Společnost",
+    "technology": "Technologie",
+    "transportation": "Doprava"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "Indicadores clave de rendimiento",
+    "search": "Buscar",
+    "definition": "Definición",
+    "formula": "Fórmula",
+    "dashboard": "Panel",
+    "summary": "Resumen",
+    "page-title": "Indicadores clave de rendimiento",
+    "modify": "Modificar",
+    "delete": "Borrar",
+    "cancel": "Cancelar"
+  },
+  "strings": {
+    "delete-kpi-question": "¿Está seguro de que desea eliminar este KPI?",
+    "kpi-deleted": "KPI eliminado"
+  },
+  "errors": {}
+}

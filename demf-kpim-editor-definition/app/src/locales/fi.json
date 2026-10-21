@@ -1,0 +1,69 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "KPI-mittarit",
+    "search": "haku",
+    "latitude": "Leveysaste",
+    "longitude": "Pituusaste",
+    "measures": "Toimenpiteet",
+    "selected": "Valittu",
+    "cancel": "Peruuta",
+    "back": "Palaa",
+    "next": "Seuraava",
+    "save": "Tallenna",
+    "select-location": "Valitse sijainti",
+    "reset-location": "Palauta sijainti",
+    "delete": "Poista",
+    "delete-all": "Poista kaikki",
+    "required": "Pakollinen kenttä",
+    "values-form": "KPI-mittarin tavoite",
+    "continue": "Jatka",
+    "description": "Kuvaus"
+  },
+  "strings": {
+    "select-location": "Valitse tai kirjoita tähän KPI-mittariin linkitetyn sijainnin koordinaatit",
+    "arrow-button-hint": "Napsauta kunkin resurssin oikealla puolella olevaa nuolta valitaksesi sen",
+    "selected-items-hint": "Resursseja myöhempiä laskelmia varten",
+    "kpi-description": "KPI-mittarin kuvaus"
+  },
+  "errors": {},
+  "tour": {
+  "help": "Käynnistä opas",
+  "next": "Seuraava",
+  "back": "Takaisin",
+  "done": "Valmis",
+  
+  "description": {
+    "title": "Kuvaus",
+    "desc": "Anna selkeä kuvaus KPI:stä."
+  },
+  "map": {
+    "title": "Kartta / geopaikannus",
+    "desc": "Määritä maantieteellinen sijainti tai viitealue."
+  },
+  "location-button": {
+    "title": "Geopaikannus",
+    "desc": "Napsauta painiketta ja valitse sijainti kartalta tai syötä koordinaatit."
+  },
+  "measures": {
+    "title": "Valitse mittarit",
+    "desc": "Napsauta nuolta valitaksesi mittarit tai aiemmin luodut KPI:t, jotka muodostavat tämän KPI:n."
+  },
+  "continue": {
+    "title": "Tallenna ja jatka",
+    "desc": "Napsauta 'Jatka' siirtyäksesi seuraavaan vaiheeseen."
+  }
+}
+}

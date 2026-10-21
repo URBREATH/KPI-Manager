@@ -1,0 +1,54 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano"
+  },
+  "labels": {
+    "page-title": "Measures",
+    "name": "Name",
+    "measures": "Measures",
+    "search": "search",
+    "create-measure": "Define measure",
+    "cancel": "Cancel",
+    "save": "Save",
+    "share": "Share",
+    "duplicate": "Duplicate",
+    "delete": "Delete",
+    "refresh": "Refresh",
+    "description": "Description",
+    "required": "Field required",
+    "open": "Open",
+    "deleteMulti": "Delete Selected",
+    "share-measure": "Share Measure",
+    "collaborators": "Collaborators",
+    "role": "Role",
+    "send": "Send",
+    "select": "Select"
+  },
+  "strings": {
+    "new-measure": "new measure",
+    "no-measures": "This list is empty",
+    "please-add-measure": "Please add a new measure",
+    "delete-measure-question": "Are you sure you want to to delete this measure?",
+    "delete-measure-disclaimer-part1": "Deleting this measure will permanently remove it and any associated KPIs that depend on it. This action cannot be undone.",
+    "delete-measure-disclaimer-part2": " If you are certain, please select DELETE to confirm.",
+    "delete-multiple-measure-question": "Do you want to delete the selected measures?",
+    "delete-measure-text": "Measure deleted",
+    "delete-multiple-text": "Measures deleted",
+    "delete-measure-tooltip": "Delete this measure",
+    "duplicate-measure-question": "Do you want to duplicate this measure?",
+    "duplicate-advice": "ATTENTION: for security policy, if the Measure requires credentials, they will NOT be duplicated in the new measure.",
+    "name-required": "Name is required",
+    "name-less-20-chars": "The maximum length allowed is 20 characters",
+    "value-required": "A value is required",
+    "share-hint": "Share with collaborators in your network",
+    "name-hint": "Name of the measure: ",
+    "measure-shared": "Measure shared successfully",
+    "select-recipient": "Select your collaborators",
+    "select-role": "Select the role of the collaborators"
+  },
+  "errors": {
+    "measure-name-exists": "This name is already in use",
+    "select-recipient": "Select at least one recipient"
+  }
+}

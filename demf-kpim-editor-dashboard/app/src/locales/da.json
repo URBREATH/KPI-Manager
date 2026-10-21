@@ -1,0 +1,28 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "target-value": "Målværdi",
+    "min-value": "Min",
+    "max-value": "Maks",
+    "avg-value": "Gennemsnit",
+    "cancel": "Anuller",
+    "continue": "Fortsæt",
+    "back": "Tilbage"
+  },
+  "strings": {
+    "dashboard-suggestion": "vælg den diagramtype, du ønsker at vise KPI-værdier med"
+  },
+  "errors": {}
+}

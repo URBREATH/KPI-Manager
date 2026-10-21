@@ -1,0 +1,137 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "page-title": "Măsuri",
+    "search": "căutare",
+    "cancel": "Anulează",
+    "continue": "Continuă",
+    "back": "Înapoi",
+    "save": "Salvează",
+    "name": "Nume",
+    "type": "Tip",
+    "description": "Descriere",
+    "method": "Metodă",
+    "protocol": "Protocol",
+    "username": "Utilizator",
+    "access-Key": "Cheie de acces/parolă",
+    "database-name": "Numele bazei de date",
+    "collection-name": "Numele colecției",
+    "delete": "Şterge",
+    "update": "Actualizare",
+    "reset": "Resetați",
+    "yes": "Da",
+    "no": "nu",
+    "preview": "Vizualizare",
+    "bucket": "Găleată",
+    "organization": "Organizare",
+    "token": "Jeton/token",
+    "context": "Context"
+  },
+  "strings": {
+    "new-measure": "măsurătoare nouă",
+    "private-message": "Activați dacă conexiunea la sursă este privată.",
+    "private-advice-policy": "N.B. În modul Editare, din cauza politicii de securitate, nu puteți vedea acreditările salvate. Introduceți noile acreditări dacă acestea s-au schimbat.",
+    "private-connection": "Conexiune privată:",
+    "delete-measure-question": "Doriți să ștergeți această valoare?",
+    "measure-deleted": "Valoarea/masuratoarea a fost ștearsă",
+    "measure-preview": "Măsurați vizualizarea",
+    "measure-has": "Măsura are",
+    "values": "valorile",
+    "show-details": "Afișați toate valorile",
+    "measure-parameters-alert": "Există o problemă de conexiune cu sursa Măsură.\r\nVerificați parametrii furnizați.",
+    "name-required": "Numele este obligatoriu",
+    "name-less-20-chars": "Lungimea maximă permisă este de 20 de caractere",
+    "value-required": "Este necesară o valoare",
+    "preview-warning": "NOTĂ: Aceasta este doar o vizualizare. Salvați sau actualizați pentru a menține modificările.",
+    "context-hint": "Definește contextul în care este evaluată această măsură.",
+"name-hint": "Nume folosit pentru a identifica această măsură (max. 20 de caractere).",
+"type-hint": "Selectați tipul de sursă de date utilizat pentru a obține măsura.",
+"description-hint": "Descriere opțională pentru a explica scopul acestei măsuri.",
+"method-hint": "Metoda HTTP folosită pentru a apela endpoint-ul REST.",
+"protocol-hint": "Protocol de comunicare folosit pentru a vă conecta la sursa de date.",
+"url-hint": "Adresa endpoint-ului folosită pentru a obține datele.",
+"port-hint": "Port de rețea folosit pentru a vă conecta la sursa de date.",
+"jsonpath-hint": "Expresie JsonPath folosită pentru a extrage valoarea din răspuns.",
+"private-connection-hint": "Activați această opțiune dacă sursa de date este accesibilă doar dintr-o rețea privată.",
+"username-hint": "Nume de utilizator folosit pentru autentificare.",
+"organization-hint": "Numele organizației folosit pentru autentificare.",
+"access-key-hint": "Cheie de acces folosită pentru autentificarea cererii.",
+"token-hint": "Token de autentificare folosit pentru a accesa sursa de date.",
+"headers-hint": "Header-e HTTP opționale trimise cu cererea.",
+"body-hint": "Payload trimis către endpoint-ul REST.",
+"query-hint": "Interogare folosită pentru a obține valoarea măsurii din baza de date.",
+"schedule-hint": "Definește cât de des este executat KPI-ul (ex. o dată pe săptămână, la fiecare 2 ore)."
+
+  },
+  "errors": {},
+  "measures": {},
+  
+  "tour": {
+    "help": "Pornește ghidul",
+    "next": "Următorul",
+    "back": "Înapoi",
+    "done": "Finalizat",
+    "measure": {
+      "title": "Creează o măsură",
+      "intro": "O măsură definește de unde provin datele pentru KPI-uri.\nUrmează acești pași pentru a o configura corect."
+    },
+    "context": {
+      "title": "Context",
+      "desc": "Contextul indică în ce domeniu este utilizată măsura."
+    },
+    "name": {
+      "title": "Nume",
+      "desc": "Folosește un nume clar:\nVa fi afișat în KPI-uri."
+    },
+    "type": {
+      "title": "Tip",
+      "desc": "Tipul indică modul de preluare a datelor\n(API REST, bază de date)."
+    },
+    "description": {
+    "title": "Descriere",
+    "desc": "Introduceți o descriere opțională pentru a explica scopul măsurii.\nVă va ajuta atunci când o reutilizați în KPI-uri."
+  },
+  "method": {
+    "title": "Metodă",
+    "desc": "Selectați metoda HTTP utilizată pentru apelarea endpoint-ului REST.\n\nGET preia date.\nPOST trimite date către server."
+  },
+  "protocol": {
+    "title": "Protocol",
+    "desc": "Definește protocolul de comunicare utilizat pentru conectarea la sursa de date."
+  },
+    "url": {
+      "title": "URL",
+      "desc": "Specifică adresa sursei de date.\nProtocolul este gestionat automat."
+    },
+    "mapping": {
+      "title": "JsonPath",
+      "desc": "Aici definești cum să extragi valoarea numerică din răspuns sau din baza de date."
+    },
+    "security": {
+      "title": "Conexiune privată",
+      "desc": "Activează această opțiune dacă sursa este protejată sau accesibilă doar cu credențiale."
+    },
+    "auth": {
+      "title": "Autentificare",
+      "desc": "Introduceți credențialele necesare pentru a accesa datele.\nInformațiile sunt stocate în siguranță."
+    },
+    "end": {
+      "title": "Final",
+      "desc": "Perfect!\nAcum poți folosi această măsură pentru a crea unul sau mai mulți KPI."
+    }
+  }
+
+
+}

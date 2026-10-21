@@ -1,0 +1,124 @@
+<single-spa-router mode="history" base="/" containerEl="#mainApp">
+  <!--
+    This is the single-spa Layout Definition for your microfrontends.
+    See https://single-spa.js.org/docs/layout-definition/ for more information.
+  -->
+
+  <!--This is a welcome loader shown before loading any MF-->
+  <v-app id="loaderApp" class="welcome-on">
+    <div>
+    <img
+      class="align-self-center"
+      height="100"
+      width="100"
+      aspect-ratio="1"
+      src="https://storage.digital-enabler.eng.it/imgs/loader.gif"
+      alt="DE loader"
+    ></img>
+    </div>
+  </v-app>
+  <!-- Application's pages and MF -->
+  <v-app>
+    <application
+      name="@digital-enabler/sidebar"
+      props="realm, palette, sidebarConfig"
+    ></application>
+
+    <v-main>
+      <route path="/public/kpis">
+        <application
+          name="@he_urbreath/demf-kpis-list"
+          props="realm, palette, kpisListConfig"
+        ></application>
+      </route>
+      <route path="/public/kpi/:token">
+        <application
+          name="@he_urbreath/demf-kpis-list"
+          props="realm, palette, kpisListConfig"
+        ></application>
+      </route>
+      <route path="/kpis">
+        <application
+          name="@he_urbreath/demf-kpis-list"
+          props="realm, palette, kpisListConfig"
+        ></application>
+      </route>
+      <route path="/compare">
+        <application
+          name="@he_urbreath/demf-kpim-compare"
+          props="realm, palette, compareConfig"
+        ></application>
+      </route>
+  <route path="/publish/dataset">
+  <application
+    name="@he_urbreath/demf-kpim-publish-kpi"
+    props="realm, palette, publishKpiConfig"
+  ></application>
+</route>
+      <redirect from="/editor" to="/editor/definition"></redirect>
+      <route path="/editor">
+        <application
+            name="@he_urbreath/demf-kpim-editor-control-panel"
+            props="realm, palette, kpimEditorConfig"
+          ></application>
+        <route path="/definition">
+          <application
+            name="@he_urbreath/demf-kpim-editor-definition"
+            props="realm, palette, kpimEditorConfig"
+          ></application>
+        </route>
+        <route path="/formula">
+          <application
+            name="@he_urbreath/demf-kpim-editor-formula"
+            props="realm, palette, kpimEditorConfig"
+          ></application>
+        </route>
+        <route path="/dashboard">
+          <application 
+            name="@he_urbreath/demf-kpim-editor-dashboard" 
+            props="realm, palette, kpimEditorConfig"
+          ></application>
+        </route>
+        <route path="/summary">
+          <application 
+            name="@he_urbreath/demf-kpim-editor-summary" 
+            props="realm, palette, kpimEditorConfig"
+          ></application>
+        </route>
+      </route>
+      <route path="/measures">
+        <application
+          name="@he_urbreath/demf-kpim-measures-list"
+          props="realm, palette, measuresListConfig"
+        ></application>
+      </route>
+      <route path="/measure">
+        <application
+          name="@he_urbreath/demf-kpim-measure"
+          props="realm, palette, kpimMeasureConfig"
+        ></application>
+      </route>
+      <route path="/measure/:measureId">
+        <application
+          name="@he_urbreath/demf-kpim-measure"
+          props="realm, palette, kpimMeasureConfig"
+        ></application>
+      </route>
+    </v-main>
+    <application
+      name="@digital-enabler/footer"
+      props="realm, palette, footerConfig"
+    ></application>
+  </v-app>
+ <!-- On background -->
+  <application
+    name="@digital-enabler/auth"
+    style="display: block"
+    props="realm, authConfig, palette"
+  ></application>
+  <application
+    name="@digital-enabler/demf-dme-event-handler"
+    style="display: block"
+    props="realm, palette, eventHandlerConfig"
+  ></application>
+</single-spa-router>

@@ -1,0 +1,40 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano"
+  },
+  "labels": {
+    "kpis": "KPIs",
+    "search": "cerca",
+    "cancel": "Annulla",
+    "continue": "Continua",
+    "back": "Indietro",
+    "save": "Salva",
+    "status": "Stato",
+    "status-running": "Avviato",
+    "status-stopped": "Non avviato",
+    "description": "Descrizione",
+    "target-value": "Target",
+    "minimum": "Minimo",
+    "maximum": "Massimo",
+    "average": "Media",
+    "kpi-formula": "Formula KPI",
+    "schedule": "Pianifico ogni:",
+    "hour": "ore",
+    "minute": "minuti",
+    "second": "secondi",
+    "day": "giorni",
+    "week": "settimane",
+    "month": "mesi",
+    "quarter": "trimestri",
+    "year": "anni",
+    "update": "Aggiorna",
+    "unit-measure": "Unità di misura"
+  },
+  "strings": {
+    "mockup-alert": "Il KPI è attualmente vuoto. I dati mostrati in questa pagina sono solo a scopo dimostrativo.",
+    "no-measure-formula": "Torna alla sezione \"Formula\" e utilizza uno tra i KPI o misure selezionati.",
+    "status-changed": "Aggiorna per applicare le modifiche"
+  },
+  "errors": {}
+}

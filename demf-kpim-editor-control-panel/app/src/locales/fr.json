@@ -1,0 +1,32 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "Indicateurs clés de performance",
+    "search": "recherche",
+    "definition": "Définition",
+    "formula": "Formule",
+    "dashboard": "Tableau de bord",
+    "summary": "Résumé",
+    "page-title": "Indicateurs clés de performance",
+    "modify": "Modifier",
+    "delete": "Supprimer",
+    "cancel": "Annuler"
+  },
+  "strings": {
+    "delete-kpi-question": "Êtes-vous sûr de vouloir supprimer ce KPI ?",
+    "kpi-deleted": "KPI supprimé"
+  },
+  "errors": {}
+}

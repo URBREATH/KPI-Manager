@@ -1,0 +1,43 @@
+version: '3'
+services:
+  kpi-middleware-api:
+    image: 237944624957.dkr.ecr.eu-south-1.amazonaws.com/kpi-middleware-api:latest
+    ports:
+      - "3000:3000"
+    environment:
+      EXPRESS_PORT: "3000"
+      TENANT_ID: "Dev"
+      MEASURE_MANAGER_API_URL: "measure-manager-api.dev.dev-digital-enabler.eng.it"
+      INDICATORS_MANAGER_API_URL: "indicators-manager-api.dev.dev-digital-enabler.eng.it"
+      CORS_ORIGIN: "http://localhost:9000"
+      CORS_CREDENTIALS: "true"
+      API_BASE_URL: "http://localhost3000"
+      GUI_BASE_URL: "http://localhost:9000"
+      ETCD_ENABLED: "true"
+      ETCD_HOSTS: "http://kpim-etcd:2379" # Riferimento al servizio etcd nel compose
+      KEYCLOAK_CLIENT_ID: "kpi-manager-app"
+      KEYCLOAK_BASE_URL: "https://idm.dev-digital-enabler.eng.it/auth"
+    restart: always
+    depends_on:
+      - kpim-etcd
+
+  kpim-etcd:
+    image: quay.io/coreos/etcd:v3.4.15
+    volumes:
+      - kpim-etcd-data:/kpim-etcd-data
+    command:
+      - etcd
+      - --data-dir
+      - /kpim-etcd-data
+      - --name
+      - my-kpim-etcd
+      - --advertise-client-urls
+      - http://kpim-etcd:2379
+      - --listen-client-urls
+      - http://0.0.0.0:2379
+    ports:
+      - "2379:2379"
+    restart: always
+volumes:
+  kpim-etcd-data:
+    driver: local

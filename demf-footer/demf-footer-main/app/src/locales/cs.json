@@ -1,0 +1,19 @@
+{
+    
+  "languages": {
+    "en": "English",
+    "es": "Espanol",
+    "it": "Italiano",
+    "cs": "Čeština",
+    "da": "Dansk",
+    "de": "Deutsch",
+    "el": "Ελληνικά",
+    "fi": "Suomi",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "ro": "Română"
+  },
+  "labels": {
+    "language": "Jazyk"
+  }
+}

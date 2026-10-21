@@ -1,0 +1,69 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "Indicadores clave de rendimiento",
+    "search": "Buscar",
+    "latitude": "Latitud",
+    "longitude": "Longitud",
+    "measures": "Medidas",
+    "selected": "Seleccionar",
+    "cancel": "Cancelar",
+    "back": "Atrás",
+    "next": "Próximo",
+    "save": "Guardar",
+    "select-location": "Seleccionar la ubicación",
+    "reset-location": "Restablecer la ubicación",
+    "delete": "Borrar",
+    "delete-all": "Borrar todo",
+    "required": "Campo obligatorio",
+    "values-form": "Objetivo del KPI",
+    "continue": "Continuar",
+    "description": "Descripción"
+  },
+  "strings": {
+    "select-location": "Seleccione o escriba las coordenadas de la ubicación vinculada a este KPI",
+    "arrow-button-hint": "Hacer clic en la flecha derecha para seleccionar un recurso.",
+    "selected-items-hint": "Recursos para cálculos posteriores",
+    "kpi-description": "Descripción del KPI"
+  },
+  "errors": {},
+  "tour": {
+  "help": "Iniciar guía",
+  "next": "Siguiente",
+  "back": "Atrás",
+  "done": "Finalizar",
+  
+  "description": {
+    "title": "Descripción",
+    "desc": "Introduce una descripción clara del KPI."
+  },
+  "map": {
+    "title": "Mapa / geolocalización",
+    "desc": "Define la ubicación geográfica o el área de referencia."
+  },
+  "location-button": {
+    "title": "Geolocalización",
+    "desc": "Haz clic en el botón y selecciona la ubicación en el mapa o introduce las coordenadas."
+  },
+  "measures": {
+    "title": "Seleccionar medidas",
+    "desc": "Haz clic en la flecha para elegir medidas o KPI creados previamente que compondrán este KPI."
+  },
+  "continue": {
+    "title": "Guardar y continuar",
+    "desc": "Haz clic en 'Continuar' para pasar al siguiente paso."
+  }
+}
+}

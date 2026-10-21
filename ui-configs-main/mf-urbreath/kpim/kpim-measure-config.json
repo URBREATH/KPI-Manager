@@ -1,0 +1,5 @@
+{
+  "mf": "KPIM Measure",
+  "api": "https://127.0.0.1:9230/api/v1",
+  "storageImgs": "https://storage.digital-enabler.eng.it/imgs"
+}

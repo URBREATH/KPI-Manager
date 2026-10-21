@@ -1,0 +1,353 @@
+swagger: "2.0"
+info:
+  title: Indicators manager API
+  version: "1.0.0"
+basePath: /api/v1
+paths:
+  /:tenantId/kpi:
+    get:
+      tags:
+        - KPI
+      summary: Get all KPI
+      description: Get all KPI
+      operationId: getKPI
+      responses:
+        "200":
+          description: A list of KPI
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/ResponseDtoKpi"
+    post:
+      tags:
+        - KPI
+      summary: Create a new KPI
+      description: Create a new KPI
+      operationId: createKPI
+      parameters:
+        - in: body
+          name: KPI
+          description: The KPI to create
+          required: true
+          schema:
+            $ref: "#/definitions/KPI"
+      responses:
+        "200":
+          description: The KPI created
+          schema:
+            $ref: "#/definitions/ResponseDtoKpi"
+        "400":
+          description: Bad request
+    put:
+      tags:
+        - KPI
+      summary: Update a KPI
+      description: Update a KPI
+      operationId: updateKPI
+      parameters:
+        - in: body
+          name: KPI
+          description: The KPI to update
+          required: true
+          schema:
+            $ref: "#/definitions/KPI"
+      responses:
+        "200":
+          description: The KPI updated
+          schema:
+            $ref: "#/definitions/ResponseDtoKpi"
+        "404":
+          description: The KPI not found
+    delete:
+      tags:
+        - KPI
+      summary: Delete a KPI
+      description: Delete a KPI
+      operationId: deleteKPI
+      parameters:
+        - in: query
+          name: id
+          description: id of KPI to delete
+          required: true
+          type: string
+          format: uuid
+      responses:
+        "204":
+          description: The KPI deleted
+          schema:
+            $ref: "#/definitions/ResponseDtoKpi"
+        "404":
+          description: The KPI not found
+
+  /:tenantId/kpi/{id}:
+    get:
+      tags:
+        - KPI
+      summary: Get KPI by id
+      description: Get KPI by id
+      operationId: getKPIById
+      parameters:
+        - in: path
+          name: id
+          description: id of KPI to return
+          required: true
+          type: string
+          format: uuid
+      responses:
+        "200":
+          description: A KPI
+          schema:
+            $ref: "#/definitions/ResponseDtoKpi"
+        "404":
+          description: The KPI not found
+  /:tenantId/jobs:
+    get:
+      tags:
+        - Jobs
+      summary: Get all Jobs
+      description: Get all Jobs
+      operationId: getJobs
+      responses:
+        "200":
+          description: A list of Jobs
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/ResponseDtoJobs"
+        "204":
+          description: No Jobs found
+    post:
+      tags:
+        - Jobs
+      summary: Create a new Jobs
+      description: Create a new Jobs
+      operationId: createJobs
+      parameters:
+        - in: body
+          name: Jobs
+          description: The Jobs to create
+          required: true
+          schema:
+            $ref: "#/definitions/Jobs"
+      responses:
+        "200":
+          description: The Jobs created
+          schema:
+            $ref: "#/definitions/ResponseDtoJobs"
+        "400":
+          description: Bad request
+    put:
+      tags:
+        - Jobs
+      summary: Update a Jobs
+      description: Update a Jobs
+      operationId: updateJobs
+      parameters:
+        - in: body
+          name: Jobs
+          description: The Jobs to update
+          required: true
+          schema:
+            $ref: "#/definitions/Jobs"
+      responses:
+        "200":
+          description: The Jobs updated
+          schema:
+            $ref: "#/definitions/ResponseDtoJobs"
+        "404":
+          description: The Jobs not found
+    delete:
+      tags:
+        - Jobs
+      summary: Delete a Jobs
+      description: Delete a Jobs
+      operationId: deleteJobs
+      parameters:
+        - in: query
+          name: id
+          description: id of Jobs to delete
+          required: true
+          type: string
+          format: uuid
+      responses:
+        "204":
+          description: The Jobs deleted
+          schema:
+            $ref: "#/definitions/ResponseDtoJobs"
+        "404":
+          description: The Jobs not found
+  /:tenantId/jobs/{id}:
+    get:
+      tags:
+        - Jobs
+      summary: Get Jobs by id
+      description: Get Jobs by id
+      operationId: getJobsById
+      parameters:
+        - in: path
+          name: id
+          description: id of Jobs to return
+          required: true
+          type: string
+          format: uuid
+      responses:
+        "200":
+          description: A Jobs
+          schema:
+            $ref: "#/definitions/ResponseDtoJobs"
+        "204":
+          description: The Jobs not found
+  /:tenantId/request-data-job/{id}:
+    get:
+      tags:
+        - Jobs
+      summary: Get Jobs result by id
+      description: Get Jobs result by id
+      operationId: getJobsResultById
+      parameters:
+        - in: path
+          name: id
+          description: id of Jobs to return
+          required: true
+          type: string
+          format: uuid
+      responses:
+        "200":
+          description: A Jobs result
+          schema:
+            $ref: "#/definitions/ResponseDto"
+        "204":
+          description: The Jobs not found
+          schema:
+            $ref: "#/definitions/ResponseDto"
+
+definitions:
+  KPI:
+    type: object
+    properties:
+      id:
+        type: integer
+        format: int64
+      name:
+        type: string
+        required:
+          - "true"
+      unitMeasure:
+        type: string
+        required:
+          - "true"
+      context:
+        type: string
+      lastValue:
+        type: number
+      targetValue:
+        type: number
+        required:
+          - "true"
+      formula:
+        $ref: "#/definitions/formula"
+      geolocation:
+        $ref: "#/definitions/geolocation"
+    required:
+      - id
+      - name
+  formula:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+      type:
+        type: string
+        enum:
+          - defined
+          - advanced
+      details:
+        type: array
+        items:
+          $ref: "#/definitions/details"
+  details:
+    type: object
+    properties:
+      measureId:
+        type: array
+        items:
+          type: string
+        format: uuid
+      operation:
+        type: string
+
+  geolocation:
+    type: object
+    properties:
+      latitude:
+        type: number
+        format: double
+      longitude:
+        type: number
+        format: double
+    required:
+      - latitude
+      - longitude
+  Jobs:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+      FormulaId:
+        type: string
+        format: uuid
+        required:
+          - "true"
+      Status:
+        type: string
+        enum:
+          - PENDING
+          - RUNNING
+      Time:
+        type: object
+        properties:
+          Granularity::
+            type: string
+            enum:
+              - day
+              - week
+              - month
+              - quarter
+              - year
+          value::
+            type: number
+  ResponseDto:
+    type: object
+    properties:
+      message:
+        type: string
+      data:
+        type: object
+      status:
+        type: number
+  ResponseDtoKpi:
+    type: object
+    properties:
+      message:
+        type: string
+      data:
+        type: object
+        properties:
+          schema:
+            $ref: "#/definitions/KPI"
+      status:
+        type: number
+  ResponseDtoJobs:
+    type: object
+    properties:
+      message:
+        type: string
+      data:
+        type: object
+        properties:
+          schema:
+            $ref: "#/definitions/Jobs"
+      status:
+        type: number

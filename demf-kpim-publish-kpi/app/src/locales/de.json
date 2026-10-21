@@ -1,0 +1,50 @@
+{
+  "labels": {
+    "page-title": "KPIs",
+    "delete": "Löschen",
+    "cancel": "Abbrechen",
+    "title": "Titel",
+    "description": "Beschreibung",
+    "accessUrl": "Zugriffs-URL",
+    "format": "Format",
+    "license": "Lizenz",
+    "frequency": "Häufigkeit",
+    "theme": "Thema",
+    "publisher": "Herausgeber",
+    "customTags": "Eigene Schlagwörter",
+    "location": "Standort",
+    "distribution": "Distribution",
+    "dataset": "Datensatz",
+    "next": "Weiter",
+    "back": "Zurück",
+    "publish": "Veröffentlichen",
+    "close": "Schließen"
+  },
+  "strings": {
+    "tagsPlaceholder": "Eingeben und Enter drücken",
+    "delete-kpi-question": "Möchten Sie diesen KPI wirklich löschen?",
+    "kpi-deleted": "KPI erfolgreich gelöscht.",
+    "publishCompleted": "Veröffentlichung abgeschlossen",
+    "publishSuccess": "Der KPI wurde erfolgreich als Datensatz in Urbreath Catalogue veröffentlicht.",
+    "publishFailed": "Veröffentlichung fehlgeschlagen",
+    "publishAlreadyExists": "Dieser Datensatz oder diese Distribution ist bereits in Urbreath Catalogue vorhanden.",
+    "publishError": "Bei der Veröffentlichung ist ein Fehler aufgetreten.",
+    "historicalDataTitle": "Historische Daten von {name}",
+    "historicalDataDescription": "Zeitreihe der KPI-Werte"
+  },
+  "themes": {
+    "agriculture": "Landwirtschaft",
+    "economy": "Wirtschaft",
+    "education": "Bildung",
+    "environment": "Umwelt",
+    "energy": "Energie",
+    "government": "Regierung",
+    "health": "Gesundheit",
+    "justice": "Justiz",
+    "international": "Internationales",
+    "regions": "Regionen",
+    "society": "Gesellschaft",
+    "technology": "Technologie",
+    "transportation": "Verkehr"
+  }
+}

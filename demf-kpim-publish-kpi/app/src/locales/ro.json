@@ -1,0 +1,50 @@
+{
+  "labels": {
+    "page-title": "KPI-uri",
+    "delete": "Șterge",
+    "cancel": "Anulează",
+    "title": "Titlu",
+    "description": "Descriere",
+    "accessUrl": "URL de acces",
+    "format": "Format",
+    "license": "Licență",
+    "frequency": "Frecvență",
+    "theme": "Temă",
+    "publisher": "Editor",
+    "customTags": "Etichete personalizate",
+    "location": "Locație",
+    "distribution": "Distribuție",
+    "dataset": "Set de date",
+    "next": "Înainte",
+    "back": "Înapoi",
+    "publish": "Publică",
+    "close": "Închide"
+  },
+  "strings": {
+    "tagsPlaceholder": "Tastați și apăsați Enter",
+    "delete-kpi-question": "Sigur doriți să ștergeți acest KPI?",
+    "kpi-deleted": "KPI-ul a fost șters cu succes.",
+    "publishCompleted": "Publicare finalizată",
+    "publishSuccess": "KPI-ul a fost publicat cu succes ca set de date în Urbreath Catalogue.",
+    "publishFailed": "Publicarea a eșuat",
+    "publishAlreadyExists": "Acest set de date sau această distribuție există deja în Urbreath Catalogue.",
+    "publishError": "A apărut o eroare în timpul publicării.",
+    "historicalDataTitle": "Date istorice pentru {name}",
+    "historicalDataDescription": "Serie temporală a valorilor KPI"
+  },
+  "themes": {
+    "agriculture": "Agricultură",
+    "economy": "Economie",
+    "education": "Educație",
+    "environment": "Mediu",
+    "energy": "Energie",
+    "government": "Administrație publică",
+    "health": "Sănătate",
+    "justice": "Justiție",
+    "international": "Internațional",
+    "regions": "Regiuni",
+    "society": "Societate",
+    "technology": "Tehnologie",
+    "transportation": "Transport"
+  }
+}

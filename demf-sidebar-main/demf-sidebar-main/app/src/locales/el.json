@@ -1,0 +1,42 @@
+{
+  "languages": {
+    "en": "English",
+    "es": "Espanol",
+    "it": "Italiano",
+    "cs": "Čeština",
+    "da": "Dansk",
+    "de": "Deutsch",
+    "el": "Ελληνικά",
+    "fi": "Suomi",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "ro": "Română"
+  },
+  "labels": {
+    "language": "Γλώσσα",
+    "my-profile": "Το προφίλ μου",
+    "logout": "Αποσύνδεση",
+    "mashups": "Mashups",
+    "services": "Υπηρεσίες",
+    "flows": "Ροές",
+    "custom-operators": "Προσαρμοσμένοι τελεστές",
+    "datasources": "Πηγές δεδομένων",
+    "favorites": "Αγαπημένα",
+    "home": "Αρχική",
+    "all-services": "Όλες οι υπηρεσίες",
+    "contexts": "Πλαίσια",
+    "docs": "Τεκμηρίωση",
+    "help-support": "Βοήθεια & υποστήριξη",
+    "remove-favorite-tooltip": "Αφαίρεση αγαπημένης υπηρεσίας",
+    "databases": "Βάσεις δεδομένων",
+    "rules": "Κανόνες",
+    "kpis": "KPIs",
+    "measures": "Μετρήσεις",
+    "public-kpis": "Δημόσια KPI"
+  },
+  "strings": {
+    "favorite-text-first": "Οι αγαπημένες σας υπηρεσίες θα εμφανίζονται εδώ.",
+    "favorite-text-second": "Για να προσθέσετε μια υπηρεσία στα αγαπημένα, κάντε κλικ στο αστέρι δίπλα στο όνομά της.",
+    "overlay-text": "Παρακαλώ χρησιμοποιήστε συσκευή με ελάχιστη ανάλυση 1024×768 σε οριζόντια λειτουργία για καλύτερη εμπειρία."
+  }
+}

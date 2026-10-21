@@ -1,0 +1,44 @@
+{
+  "languages": {
+    "en": "English",
+    "es": "Espanol",
+    "it": "Italiano",
+    "cs": "Čeština",
+    "da": "Dansk",
+    "de": "Deutsch",
+    "el": "Ελληνικά",
+    "fi": "Suomi",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "ro": "Română"
+  },
+  "labels": {
+    "language": "Idioma",
+    "my-profile": "Mi perfil",
+    "logout": "Cerrar sesión",
+    "mashups": "Mashups",
+    "services": "Servicios",
+    "flows": "Flujos",
+    "custom-operators": "Operadores personalizados",
+    "datasources": "Orígenes de datos",
+    "favorites": "Favoritos",
+    "home": "Inicio",
+    "all-services": "Todos los servicios",
+    "contexts": "Contextos",
+    "docs": "Documentación",
+    "help-support": "Ayuda y soporte",
+    "remove-favorite-tooltip": "Quitar servicio favorito",
+    "databases": "Bases de datos",
+    "rules": "Reglas",
+    "kpis": "KPIs",
+    "measures": "Medidas",
+    "public-kpis": "KPI públicos"
+    
+  },
+  "strings": {
+    "favorite-text-first": "Tus servicios favoritos aparecerán aquí.",
+    "favorite-text-second": "Para agregar un servicio a tus favoritos, haz clic en la estrella junto a su nombre.",
+    "overlay-text": "Por favor, utiliza un dispositivo con una resolución mínima de 1024x768 en modo horizontal para una mejor experiencia."
+  }
+}
+

@@ -1,0 +1,32 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "KPI's",
+    "search": "zoeken",
+    "definition": "Definitie",
+    "formula": "Formule",
+    "dashboard": "Dashboard",
+    "summary": "Samenvatting",
+    "page-title": "KPI's",
+    "modify": "Bewerken",
+    "delete": "Verwijderen",
+    "cancel": "Annuleren"
+  },
+  "strings": {
+    "delete-kpi-question": "Weet u zeker dat u deze KPI wilt verwijderen?",
+    "kpi-deleted": "KPI verwijderd"
+  },
+  "errors": {}
+}

@@ -1,0 +1,137 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "page-title": "Mesures",
+    "search": "recherche",
+    "cancel": "Annuler",
+    "continue": "Continuer",
+    "back": "Retour",
+    "save": "Enregistrer",
+    "name": "Nom",
+    "type": "Type",
+    "description": "Description",
+    "method": "Méthode",
+    "protocol": "Protocole",
+    "username": "Nom d'utilisateur",
+    "access-Key": "Clé d'accès",
+    "database-name": "Nom de la base de données",
+    "collection-name": "Nom de la collection",
+    "delete": "Supprimer",
+    "update": "Mettre à jour",
+    "reset": "Réinitialiser",
+    "yes": "Oui",
+    "no": "Non",
+    "preview": "Aperçu",
+    "bucket": "Panier",
+    "organization": "Organisation",
+    "token": "Jeton",
+    "context": "Contexte"
+  },
+  "strings": {
+    "new-measure": "nouvelle mesure",
+    "private-message": "Activer si la connexion à la source est privée.",
+    "private-advice-policy": "N.B. En mode Édition, en raison de la politique de sécurité, vous ne pouvez pas voir vos identifiants enregistrés. Saisissez les nouveaux identifiants s'ils ont changé.",
+    "private-connection": "Connexion privée :",
+    "delete-measure-question": "Êtes-vous sûr de vouloir supprimer cette mesure ?",
+    "measure-deleted": "Mesure supprimée",
+    "measure-preview": "Aperçu de la mesure",
+    "measure-has": "La mesure a",
+    "values": "valeurs",
+    "show-details": "Afficher toutes les valeurs",
+    "measure-parameters-alert": "Il y a un problème de connexion avec la source de mesure.\r\nVérifiez les paramètres saisis.",
+    "name-required": "Le nom est obligatoire",
+    "name-less-20-chars": "La longueur maximale autorisée est de 20 caractères",
+    "value-required": "Une valeur est requise",
+    "preview-warning": "REMARQUE : il s'agit simplement d'un aperçu, enregistrez ou mettez à jour pour conserver les modifications.",
+    "context-hint": "Définit le contexte dans lequel cette mesure est évaluée.",
+"name-hint": "Nom utilisé pour identifier cette mesure (max 20 caractères).",
+"type-hint": "Sélectionnez le type de source de données utilisé pour récupérer la mesure.",
+"description-hint": "Description optionnelle pour expliquer l'objectif de cette mesure.",
+"method-hint": "Méthode HTTP utilisée pour appeler l'endpoint REST.",
+"protocol-hint": "Protocole de communication utilisé pour se connecter à la source de données.",
+"url-hint": "Adresse de l'endpoint utilisée pour récupérer les données.",
+"port-hint": "Port réseau utilisé pour se connecter à la source de données.",
+"jsonpath-hint": "Expression JsonPath utilisée pour extraire la valeur de la réponse.",
+"private-connection-hint": "Activez cette option si la source de données n'est accessible que depuis un réseau privé.",
+"username-hint": "Nom d'utilisateur utilisé pour l'authentification.",
+"organization-hint": "Nom de l'organisation utilisé pour l'authentification.",
+"access-key-hint": "Clé d'accès utilisée pour authentifier la requête.",
+"token-hint": "Jeton d'authentification utilisé pour accéder à la source de données.",
+"headers-hint": "En-têtes HTTP optionnels envoyés avec la requête.",
+"body-hint": "Payload envoyé à l'endpoint REST.",
+"query-hint": "Requête utilisée pour obtenir la valeur de la mesure depuis la base de données.",
+"schedule-hint": "Définit la fréquence d'exécution du KPI (ex. une fois par semaine, toutes les 2 heures)."
+
+  },
+  "errors": {},
+  "measures": {},
+  
+  "tour": {
+    "help": "Démarrer le guide",
+    "next": "Suivant",
+    "back": "Retour",
+    "done": "Terminé",
+    "measure": {
+      "title": "Créer une mesure",
+      "intro": "Une mesure définit d'où proviennent les données pour les KPI.\nSuivez ces étapes pour la configurer correctement."
+    },
+    "context": {
+      "title": "Contexte",
+      "desc": "Le contexte indique dans quel domaine la mesure est utilisée."
+    },
+    "name": {
+      "title": "Nom",
+      "desc": "Utilisez un nom clair:\nIl sera affiché dans les KPI."
+    },
+    "type": {
+      "title": "Type",
+      "desc": "Le type indique comment récupérer les données\n(API REST, base de données)."
+    },
+     "description": {
+    "title": "Description",
+    "desc": "Saisissez une description facultative pour expliquer l’objectif de la mesure.\nCela vous aidera lors de sa réutilisation dans les KPI."
+  },
+  "method": {
+    "title": "Méthode",
+    "desc": "Sélectionnez la méthode HTTP utilisée pour appeler le point d’accès REST.\n\nGET récupère les données.\nPOST envoie des données au serveur."
+  },
+  "protocol": {
+    "title": "Protocole",
+    "desc": "Définit le protocole de communication utilisé pour se connecter à la source de données."
+  },
+    "url": {
+      "title": "URL",
+      "desc": "Spécifiez l'adresse de la source de données.\nLe protocole est géré automatiquement."
+    },
+    "mapping": {
+      "title": "JsonPath",
+      "desc": "Ici, vous définissez comment extraire la valeur numérique de la réponse ou de la base de données."
+    },
+    "security": {
+      "title": "Connexion privée",
+      "desc": "Activez cette option si la source est protégée ou accessible uniquement avec des identifiants."
+    },
+    "auth": {
+      "title": "Authentification",
+      "desc": "Entrez les identifiants requis pour accéder aux données.\nLes informations sont stockées en toute sécurité."
+    },
+    "end": {
+      "title": "Fin",
+      "desc": "Super!\nVous pouvez maintenant utiliser cette mesure pour créer un ou plusieurs KPI."
+    }
+  }
+
+
+}

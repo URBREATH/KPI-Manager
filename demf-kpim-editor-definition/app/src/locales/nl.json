@@ -1,0 +1,69 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "KPI's",
+    "search": "zoeken",
+    "latitude": "Breedtegraad",
+    "longitude": "Lengtegraad",
+    "measures": "Maatregelen",
+    "selected": "Gekozen",
+    "cancel": "Annuleren",
+    "back": "Terug",
+    "next": "Volgende",
+    "save": "Opslaan",
+    "select-location": "Selecteer locatie",
+    "reset-location": "Reset locatie",
+    "delete": "Verwijderen",
+    "delete-all": "Alles verwijderen",
+    "required": "Verplicht veld",
+    "values-form": "KPI-doelstelling",
+    "continue": "Doorgaan",
+    "description": "Beschrijving"
+  },
+  "strings": {
+    "select-location": "Selecteer of schrijf de coördinaten van de locatie gekoppeld aan deze Kpi",
+    "arrow-button-hint": "Klik op de pijl rechts van elke bron om deze te selecteren",
+    "selected-items-hint": "Hulpbronnen voor latere berekeningen",
+    "kpi-description": "Beschrijving van de KPI"
+  },
+  "errors": {},
+  "tour": {
+  "help": "Start handleiding",
+  "next": "Volgende",
+  "back": "Terug",
+  "done": "Voltooien",
+  
+  "description": {
+    "title": "Beschrijving",
+    "desc": "Voer een duidelijke beschrijving van de KPI in."
+  },
+  "map": {
+    "title": "Kaart / geolocatie",
+    "desc": "Definieer de geografische locatie of het referentiegebied."
+  },
+  "location-button": {
+    "title": "Geolocatie",
+    "desc": "Klik op de knop en selecteer de locatie op de kaart of voer de coördinaten in."
+  },
+  "measures": {
+    "title": "Selecteer metingen",
+    "desc": "Klik op de pijl om metingen of eerder aangemaakte KPI’s te selecteren die deze KPI vormen."
+  },
+  "continue": {
+    "title": "Opslaan en doorgaan",
+    "desc": "Klik op 'Doorgaan' om naar de volgende stap te gaan."
+  }
+}
+}

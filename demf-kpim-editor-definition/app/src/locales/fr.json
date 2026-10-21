@@ -1,0 +1,70 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "Indicateurs clés de performance",
+    "search": "recherche",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "measures": "Mesures",
+    "selected": "Selectionné",
+    "cancel": "Annuler",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Enregistrer",
+    "select-location": "Sélectionner l'emplacement",
+    "reset-location": "Réinitialiser l'emplacement",
+    "delete": "Supprimer",
+    "delete-all": "Tout supprimer",
+    "required": "Champ requis",
+    "values-form": "Objectif du KPI",
+    "continue": "Continuer",
+    "description": "Description"
+  },
+  "strings": {
+    "select-location": "Sélectionnez ou saisissez les coordonnées du lieu lié à ce KPI",
+    "arrow-button-hint": "Cliquez sur la flèche à droite de chaque ressource pour la sélectionner",
+    "selected-items-hint": "Ressources pour les calculs ultérieurs",
+    "kpi-description": "Description du KPI"
+  },
+  "errors": {},
+  "tour": {
+  "help": "Démarrer le guide",
+  "next": "Suivant",
+  "back": "Retour",
+  "done": "Terminer",
+  
+  "description": {
+    "title": "Description",
+    "desc": "Saisissez une description claire du KPI."
+  },
+  "map": {
+    "title": "Carte / géolocalisation",
+    "desc": "Définissez la position géographique ou la zone de référence."
+  },
+  "location-button": {
+    "title": "Géolocalisation",
+    "desc": "Cliquez sur le bouton et sélectionnez la position sur la carte ou saisissez les coordonnées."
+  },
+  "measures": {
+    "title": "Sélectionner des mesures",
+    "desc": "Cliquez sur la flèche pour choisir des mesures ou des KPI créés précédemment qui composeront ce KPI."
+  },
+  "continue": {
+    "title": "Enregistrer et continuer",
+    "desc": "Cliquez sur « Continuer » pour passer à l’étape suivante."
+  }
+}
+
+}

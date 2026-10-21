@@ -1,0 +1,70 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../kpim-formula-engine-main"
+		},
+		{
+			"path": "../kpim-indicators-manager-main"
+		},
+		{
+			"path": "../kpim-listeners-manager-main"
+		},
+		{
+			"path": "../kpim-measure-manager-api-main"
+		},
+		{
+			"path": "../kpim-middleware-api-main"
+		},
+		{
+			"path": "../kpi-models-support-main"
+		},
+		{
+			"path": "../kpim-publisher-manager"
+		},
+		{
+			"path": "../demf-auth"
+		},
+		{
+			"path": "../demf-event-handler"
+		},
+		{
+			"path": "../demf-footer"
+		},
+		{
+			"path": "../demf-kpim-compare"
+		},
+		{
+			"path": "../demf-kpim-editor-control-panel"
+		},
+		{
+			"path": "../demf-kpim-editor-dashboard"
+		},
+		{
+			"path": "../demf-kpim-editor-definition"
+		},
+		{
+			"path": "../demf-kpim-editor-formula"
+		},
+		{
+			"path": "../demf-kpim-editor-summary"
+		},
+		{
+			"path": "../demf-kpim-kpis-list"
+		},
+		{
+			"path": "../demf-kpim-measure"
+		},
+		{
+			"path": "../demf-kpim-measures-list"
+		},
+		{
+			"path": "../demf-kpim-publish-kpi"
+		},
+		{
+			"path": "../demf-sidebar-main"
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+  "labels": {
+    "page-title": "KPI-mittarit",
+    "delete": "Poista",
+    "cancel": "Peruuta",
+    "title": "Otsikko",
+    "description": "Kuvaus",
+    "accessUrl": "Käyttö-URL",
+    "format": "Muoto",
+    "license": "Lisenssi",
+    "frequency": "Tiheys",
+    "theme": "Teema",
+    "publisher": "Julkaisija",
+    "customTags": "Mukautetut tunnisteet",
+    "location": "Sijainti",
+    "distribution": "Jakelu",
+    "dataset": "Tietoaineisto",
+    "next": "Seuraava",
+    "back": "Takaisin",
+    "publish": "Julkaise",
+    "close": "Sulje"
+  },
+  "strings": {
+    "tagsPlaceholder": "Kirjoita ja paina Enter",
+    "delete-kpi-question": "Haluatko varmasti poistaa tämän KPI-mittarin?",
+    "kpi-deleted": "KPI-mittari poistettiin onnistuneesti.",
+    "publishCompleted": "Julkaisu valmis",
+    "publishSuccess": "KPI-mittari julkaistiin tietoaineistona Urbreath Catalogue -palvelussa.",
+    "publishFailed": "Julkaisu epäonnistui",
+    "publishAlreadyExists": "Tämä tietoaineisto tai jakelu on jo Urbreath Catalogue -palvelussa.",
+    "publishError": "Julkaisun aikana tapahtui virhe.",
+    "historicalDataTitle": "Mittarin {name} historiatiedot",
+    "historicalDataDescription": "KPI-arvojen aikasarja"
+  },
+  "themes": {
+    "agriculture": "Maatalous",
+    "economy": "Talous",
+    "education": "Koulutus",
+    "environment": "Ympäristö",
+    "energy": "Energia",
+    "government": "Hallinto",
+    "health": "Terveys",
+    "justice": "Oikeus",
+    "international": "Kansainväliset asiat",
+    "regions": "Alueet",
+    "society": "Yhteiskunta",
+    "technology": "Teknologia",
+    "transportation": "Liikenne"
+  }
+}

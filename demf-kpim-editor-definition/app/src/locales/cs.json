@@ -1,0 +1,70 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "KPI",
+    "search": "vyhledávání",
+    "latitude": "Zeměpisná šířka",
+    "longitude": "Zeměpisná délka",
+    "measures": "Opatření",
+    "selected": "Vybraný",
+    "cancel": "Zrušit",
+    "back": "Zadní",
+    "next": "Další",
+    "save": "Uložit",
+    "select-location": "Vyberte umístění",
+    "reset-location": "Obnovit polohu",
+    "delete": "Vymazat",
+    "delete-all": "Smazat vše",
+    "required": "Povinné pole",
+    "values-form": "cíl KPI",
+    "continue": "Pokračovat",
+    "description": "Popis"
+  },
+  "strings": {
+    "select-location": "Vyberte nebo napište souřadnice místa spojeného s tímto Kpi",
+    "arrow-button-hint": "Kliknutím na šipku napravo od každého zdroje jej vyberte",
+    "selected-items-hint": "Zdroje pro pozdější výpočty",
+    "kpi-description": "Popis KPI"
+  },
+  "errors": {},
+  "tour": {
+  "help": "Spustit průvodce",
+  "next": "Další",
+  "back": "Zpět",
+  "done": "Dokončit",
+  
+  "description": {
+    "title": "Popis",
+    "desc": "Zadejte jasný popis KPI."
+  },
+  "map": {
+    "title": "Mapa / geolokalizace",
+    "desc": "Definujte geografickou polohu nebo referenční oblast."
+  },
+  "location-button": {
+    "title": "Geolokalizace",
+    "desc": "Klikněte na tlačítko a vyberte polohu na mapě nebo zadejte souřadnice."
+  },
+  "measures": {
+    "title": "Vybrat měření",
+    "desc": "Kliknutím na šipku vyberte měření nebo dříve vytvořené KPI, které budou tvořit tento KPI."
+  },
+  "continue": {
+    "title": "Uložit a pokračovat",
+    "desc": "Klikněte na „Pokračovat“ pro přechod na další krok průvodce."
+  }
+}
+
+}

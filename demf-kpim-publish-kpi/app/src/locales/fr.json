@@ -1,0 +1,50 @@
+{
+  "labels": {
+    "page-title": "KPI",
+    "delete": "Supprimer",
+    "cancel": "Annuler",
+    "title": "Titre",
+    "description": "Description",
+    "accessUrl": "URL d'accès",
+    "format": "Format",
+    "license": "Licence",
+    "frequency": "Fréquence",
+    "theme": "Thème",
+    "publisher": "Éditeur",
+    "customTags": "Étiquettes personnalisées",
+    "location": "Emplacement",
+    "distribution": "Distribution",
+    "dataset": "Jeu de données",
+    "next": "Suivant",
+    "back": "Retour",
+    "publish": "Publier",
+    "close": "Fermer"
+  },
+  "strings": {
+    "tagsPlaceholder": "Saisissez puis appuyez sur Entrée",
+    "delete-kpi-question": "Voulez-vous vraiment supprimer ce KPI ?",
+    "kpi-deleted": "KPI supprimé avec succès.",
+    "publishCompleted": "Publication terminée",
+    "publishSuccess": "Le KPI a été publié avec succès comme jeu de données sur Urbreath Catalogue.",
+    "publishFailed": "Échec de la publication",
+    "publishAlreadyExists": "Ce jeu de données ou cette distribution existe déjà dans Urbreath Catalogue.",
+    "publishError": "Une erreur s'est produite lors de la publication.",
+    "historicalDataTitle": "Données historiques de {name}",
+    "historicalDataDescription": "Série chronologique des valeurs du KPI"
+  },
+  "themes": {
+    "agriculture": "Agriculture",
+    "economy": "Économie",
+    "education": "Éducation",
+    "environment": "Environnement",
+    "energy": "Énergie",
+    "government": "Gouvernement",
+    "health": "Santé",
+    "justice": "Justice",
+    "international": "International",
+    "regions": "Régions",
+    "society": "Société",
+    "technology": "Technologie",
+    "transportation": "Transports"
+  }
+}

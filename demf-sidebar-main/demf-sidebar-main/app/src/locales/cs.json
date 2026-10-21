@@ -1,0 +1,43 @@
+{
+    
+  "languages": {
+    "en": "English",
+    "es": "Espanol",
+    "it": "Italiano",
+    "cs": "Čeština",
+    "da": "Dansk",
+    "de": "Deutsch",
+    "el": "Ελληνικά",
+    "fi": "Suomi",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "ro": "Română"
+  },
+  "labels": {
+    "language": "Jazyk",
+    "my-profile": "Můj profil",
+    "logout": "Odhlásit se",
+    "mashups": "Mashupy",
+    "services": "Služby",
+    "flows": "Točky",
+    "custom-operators": "Vlastní operátory",
+    "datasources": "Datové zdroje",
+    "favorites": "Oblíbené",
+    "home": "Domů",
+    "all-services": "Všechny služby",
+    "contexts": "Kontexty",
+    "docs": "Dokumentace",
+    "help-support": "Nápověda a podpora",
+    "remove-favorite-tooltip": "Odstranit oblíbenou službu",
+    "databases": "Databáze",
+    "rules": "Pravidla",
+    "kpis": "KPIs",
+    "measures": "Míry",
+    "public-kpis": "Veřejné KPI"
+  },
+  "strings": {
+    "favorite-text-first": "Vaše oblíbené služby se zde zobrazí.",
+    "favorite-text-second": "Chcete‑li přidat službu mezi oblíbené, klikněte na hvězdičku vedle názvu.",
+    "overlay-text": "Pro lepší zážitek použijte zařízení s minimálním rozlišením 1024×768 na výšku (landscape)."
+  }
+}

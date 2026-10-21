@@ -1,0 +1,137 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "page-title": "Toimenpiteet",
+    "search": "haku",
+    "cancel": "Peruuta",
+    "continue": "Jatka",
+    "back": "Palaa",
+    "save": "Tallenna",
+    "name": "Nimi",
+    "type": "Tyyppi",
+    "description": "Kuvaus",
+    "method": "Menetelmä",
+    "protocol": "pöytäkirja",
+    "username": "Käyttäjätunnus",
+    "access-Key": "Pääsyavain",
+    "database-name": "Tietokannan nimi",
+    "collection-name": "Kokoelman nimi",
+    "delete": "Poista",
+    "update": "Päivitä",
+    "reset": "Nollaa",
+    "yes": "kyllä",
+    "no": "ei",
+    "preview": "Esikatselu",
+    "bucket": "Ämpäri",
+    "organization": "Organisaatio",
+    "token": "valtuus",
+    "context": "Konteksti"
+  },
+  "strings": {
+    "new-measure": "uusi toimenpide",
+    "private-message": "Aktivoi, jos yhteys lähteeseen on yksityinen.",
+    "private-advice-policy": "HUOM. Muokkaustilassa et voi nähdä tallennettuja tunnistetietoja suojauskäytännön vuoksi. Anna uudet tunnistetiedot, jos ne ovat muuttuneet.",
+    "private-connection": "Yksityinen yhteys:",
+    "delete-measure-question": "Haluatko varmasti poistaa tämän toimenpiteen?",
+    "measure-deleted": "Mitta poistettu",
+    "measure-preview": "Mittauksen esikatselu",
+    "measure-has": "Mitta on",
+    "values": "arvot",
+    "show-details": "Näytä kaikki arvot",
+    "measure-parameters-alert": "Mittauslähteen kanssa on yhteysongelma.\r\nTarkista annetut parametrit.",
+    "name-required": "Nimi vaaditaan",
+    "name-less-20-chars": "Suurin sallittu pituus on 20 merkkiä",
+    "value-required": "Arvo vaaditaan",
+    "preview-warning": "HUOMAA: Tämä on vain esikatselu. Tallenna tai päivitä, jos haluat säilyttää muutokset.",
+    "context-hint": "Määrittää kontekstin, jossa mitta arvioidaan.",
+"name-hint": "Nimi, jota käytetään tämän mittauksen tunnistamiseen (max. 20 merkkiä).",
+"type-hint": "Valitse tietolähdetyyppi, jota käytetään mittauksen hakemiseen.",
+"description-hint": "Valinnainen kuvaus, joka selittää tämän mittauksen tarkoituksen.",
+"method-hint": "HTTP-menetelmä, jota käytetään REST-päätepisteen kutsumiseen.",
+"protocol-hint": "Kommunikaatioprotokolla, jota käytetään tietolähteeseen yhdistämiseen.",
+"url-hint": "Päätepisteen osoite, jota käytetään tietojen hakemiseen.",
+"port-hint": "Verkkopordi, jota käytetään tietolähteeseen yhdistämiseen.",
+"jsonpath-hint": "JsonPath-lauseke, jota käytetään arvon poimimiseen vastauksesta.",
+"private-connection-hint": "Ota tämä käyttöön, jos tietolähde on saatavilla vain yksityisen verkon kautta.",
+"username-hint": "Käyttäjätunnus, jota käytetään todennukseen.",
+"organization-hint": "Organisaation nimi, jota käytetään todennukseen.",
+"access-key-hint": "Pääsavaimen käytetään pyynnön todennukseen.",
+"token-hint": "Todennustoken, jota käytetään tietolähteeseen pääsyyn.",
+"headers-hint": "Valinnaiset HTTP-otsikot, jotka lähetetään pyynnön mukana.",
+"body-hint": "Payload, joka lähetetään REST-päätepisteeseen.",
+"query-hint": "Kysely, jota käytetään mittauksen arvon hakemiseen tietokannasta.",
+"schedule-hint": "Määrittää kuinka usein KPI suoritetaan (esim. kerran viikossa, joka 2. tunti)."
+
+  },
+  "errors": {},
+  "measures": {},
+  
+  "tour": {
+    "help": "Aloita opastus",
+    "next": "Seuraava",
+    "back": "Takaisin",
+    "done": "Valmis",
+    "measure": {
+      "title": "Luo mittaus",
+      "intro": "Mittaus määrittää, mistä KPI-tiedot tulevat.\nSeuraa näitä vaiheita oikeaan asetukseen."
+    },
+    "context": {
+      "title": "Konteksti",
+      "desc": "Konteksti määrittää, missä yhteydessä mittausta käytetään."
+    },
+    "name": {
+      "title": "Nimi",
+      "desc": "Käytä selkeää nimeä:\nSe näkyy KPI:issä."
+    },
+    "type": {
+      "title": "Tyyppi",
+      "desc": "Tyyppi määrittää, miten tiedot haetaan\n(API REST, tietokanta)."
+    },
+    "description": {
+    "title": "Kuvaus",
+    "desc": "Anna valinnainen kuvaus selittääksesi mittarin tarkoituksen.\nSe auttaa sinua ymmärtämään sen uudelleenkäytössä KPI:ssä."
+  },
+  "method": {
+    "title": "Menetelmä",
+    "desc": "Valitse HTTP-menetelmä REST-rajapinnan kutsumiseen.\n\nGET hakee tiedot.\nPOST lähettää tiedot palvelimelle."
+  },
+  "protocol": {
+    "title": "Protokolla",
+    "desc": "Määrittää tiedonsiirtoprotokollan, jota käytetään yhdistettäessä tietolähteeseen."
+  },
+    "url": {
+      "title": "URL",
+      "desc": "Määritä tietolähteen osoite.\nProtokollaa käsitellään automaattisesti."
+    },
+    "mapping": {
+      "title": "JsonPath",
+      "desc": "Täällä määrität, miten numeerinen arvo haetaan vastauksesta tai tietokannasta."
+    },
+    "security": {
+      "title": "Yksityinen yhteys",
+      "desc": "Ota tämä käyttöön, jos lähde on suojattu tai käytettävissä vain tunnistetiedoilla."
+    },
+    "auth": {
+      "title": "Todennus",
+      "desc": "Syötä tiedot, joilla pääset käsiksi tietoihin.\nTiedot tallennetaan turvallisesti."
+    },
+    "end": {
+      "title": "Valmis",
+      "desc": "Hienoa!\nVoit nyt käyttää tätä mittausta yhden tai useamman KPI:n luomiseen."
+    }
+  }
+
+
+}

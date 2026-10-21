@@ -1,0 +1,42 @@
+{
+  "languages": {
+    "en": "English",
+    "es": "Espanol",
+    "it": "Italiano",
+    "cs": "Čeština",
+    "da": "Dansk",
+    "de": "Deutsch",
+    "el": "Ελληνικά",
+    "fi": "Suomi",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "ro": "Română"
+  },
+  "labels": {
+    "language": "Kieli",
+    "my-profile": "Oma profiili",
+    "logout": "Kirjaudu ulos",
+    "mashups": "Mashupit",
+    "services": "Palvelut",
+    "flows": "Virtaukset",
+    "custom-operators": "Mukautetut operaattorit",
+    "datasources": "Tietolähteet",
+    "favorites": "Suosikit",
+    "home": "Koti",
+    "all-services": "Kaikki palvelut",
+    "contexts": "Kontekstit",
+    "docs": "Dokumentit",
+    "help-support": "Ohje & tuki",
+    "remove-favorite-tooltip": "Poista suosikkipalvelu",
+    "databases": "Tietokannat",
+    "rules": "Säännöt",
+    "kpis": "KPIs",
+    "measures": "Mittarit",
+    "public-kpis": "Julkiset KPI-mittarit"
+  },
+  "strings": {
+    "favorite-text-first": "Suosikkipalvelusi näkyvät tässä.",
+    "favorite-text-second": "Lisätäksesi palvelun suosikkeihin, klikkaa neliötä nimen vieressä.",
+    "overlay-text": "Käytä laitetta, jonka perusresoluutio on vähintään 1024×768 ja vaakasuuntainen tila, saadaksesi paremman kokemuksen."
+  }
+}

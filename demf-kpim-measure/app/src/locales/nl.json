@@ -1,0 +1,137 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "page-title": "Maatregelen",
+    "search": "zoeken",
+    "cancel": "Annuleren",
+    "continue": "Doorgaan",
+    "back": "Terug",
+    "save": "Opslaan",
+    "name": "Naam",
+    "type": "Type",
+    "description": "Beschrijving",
+    "method": "Methode",
+    "protocol": "Protocol",
+    "username": "Gebruikersnaam",
+    "access-Key": "Toegangssleutel",
+    "database-name": "Databasenaam",
+    "collection-name": "Collectienaam",
+    "delete": "Verwijderen",
+    "update": "Update",
+    "reset": "Opnieuw instellen",
+    "yes": "Ja",
+    "no": "Nee",
+    "preview": "Voorvertoning",
+    "bucket": "Emmer",
+    "organization": "Organisatie",
+    "token": "Token",
+    "context": "Context"
+  },
+  "strings": {
+    "new-measure": "nieuwe maatregel",
+    "private-message": "Activeer dit als de verbinding met de bron privé is.",
+    "private-advice-policy": "N.B. In de bewerkingsmodus kunt u vanwege het beveiligingsbeleid uw opgeslagen gegevens niet zien. Voer de nieuwe gegevens in als deze zijn gewijzigd.",
+    "private-connection": "Privéverbinding:",
+    "delete-measure-question": "Weet u zeker dat u deze maatregel wilt verwijderen?",
+    "measure-deleted": "Maatregel verwijderd",
+    "measure-preview": "Voorbeeld van maatregel",
+    "measure-has": "De maatregel heeft",
+    "values": "waarden",
+    "show-details": "Toon alle waarden",
+    "measure-parameters-alert": "Er is een verbindingsprobleem met de Maatregel-bron. Controleer de opgegeven parameters.",
+    "name-required": "Naam is verplicht",
+    "name-less-20-chars": "De maximaal toegestane lengte is 20 tekens",
+    "value-required": "Er is een waarde vereist",
+    "preview-warning": "LET OP: Dit is slechts een voorbeeld, sla op of werk bij om de wijzigingen te behouden.",
+    "context-hint": "Definieert de context waarin deze maatregel wordt geëvalueerd.",
+"name-hint": "Naam gebruikt om deze maatregel te identificeren (max. 20 tekens).",
+"type-hint": "Selecteer het gegevenstype dat wordt gebruikt om de maatregel te verkrijgen.",
+"description-hint": "Optionele beschrijving om het doel van deze maatregel uit te leggen.",
+"method-hint": "HTTP-methode gebruikt om het REST-endpoint aan te roepen.",
+"protocol-hint": "Communicatieprotocol gebruikt om verbinding te maken met de gegevensbron.",
+"url-hint": "Endpointadres gebruikt om de gegevens op te halen.",
+"port-hint": "Netwerkpoort gebruikt om verbinding te maken met de gegevensbron.",
+"jsonpath-hint": "JsonPath-expressie gebruikt om de waarde uit het antwoord te halen.",
+"private-connection-hint": "Schakel deze optie in als de gegevensbron alleen via een privénetwerk toegankelijk is.",
+"username-hint": "Gebruikersnaam gebruikt voor authenticatie.",
+"organization-hint": "Organisatienaam gebruikt voor authenticatie.",
+"access-key-hint": "Toegangssleutel gebruikt om het verzoek te authenticeren.",
+"token-hint": "Authenticatietoken gebruikt om toegang te krijgen tot de gegevensbron.",
+"headers-hint": "Optionele HTTP-headers die met het verzoek worden verzonden.",
+"body-hint": "Payload verzonden naar het REST-endpoint.",
+"query-hint": "Query gebruikt om de waarde van de maatregel uit de database op te halen.",
+"schedule-hint": "Definieert hoe vaak de KPI wordt uitgevoerd (bijv. eenmaal per week, elke 2 uur)."
+
+  },
+  "errors": {},
+  "measures": {},
+  
+  "tour": {
+    "help": "Start gids",
+    "next": "Volgende",
+    "back": "Terug",
+    "done": "Klaar",
+    "measure": {
+      "title": "Maak een maatregel",
+      "intro": "Een maatregel bepaalt waar de gegevens voor de KPI's vandaan komen.\nVolg deze stappen om deze correct in te stellen."
+    },
+    "context": {
+      "title": "Context",
+      "desc": "De context geeft aan in welk gebied de maatregel wordt gebruikt."
+    },
+    "name": {
+      "title": "Naam",
+      "desc": "Gebruik een duidelijke naam:\nDeze wordt weergegeven in de KPI's."
+    },
+    "type": {
+      "title": "Type",
+      "desc": "Het type geeft aan hoe de gegevens worden opgehaald\n(API REST, database)."
+    },
+     "description": {
+    "title": "Beschrijving",
+    "desc": "Voer een optionele beschrijving in om het doel van de meting uit te leggen.\nDit helpt bij hergebruik in KPI’s."
+  },
+  "method": {
+    "title": "Methode",
+    "desc": "Selecteer de HTTP-methode voor het aanroepen van het REST-endpoint.\n\nGET haalt gegevens op.\nPOST verzendt gegevens naar de server."
+  },
+  "protocol": {
+    "title": "Protocol",
+    "desc": "Definieert het communicatieprotocol dat wordt gebruikt om verbinding te maken met de gegevensbron."
+  },
+    "url": {
+      "title": "URL",
+      "desc": "Geef het adres van de gegevensbron op.\nHet protocol wordt automatisch afgehandeld."
+    },
+    "mapping": {
+      "title": "JsonPath",
+      "desc": "Hier definieer je hoe de numerieke waarde uit het antwoord of de database wordt gehaald."
+    },
+    "security": {
+      "title": "Privéverbinding",
+      "desc": "Schakel deze optie in als de bron beveiligd is of alleen toegankelijk met inloggegevens."
+    },
+    "auth": {
+      "title": "Authenticatie",
+      "desc": "Voer de vereiste inloggegevens in om toegang te krijgen tot de gegevens.\nDe informatie wordt veilig opgeslagen."
+    },
+    "end": {
+      "title": "Klaar",
+      "desc": "Geweldig!\nJe kunt deze maatregel nu gebruiken om een of meerdere KPI's te maken."
+    }
+  }
+
+
+}

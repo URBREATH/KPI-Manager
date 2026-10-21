@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.FROST_SERVER_URL = exports.KPIM_MEASURE_MANAGER_API_URL = exports.NGSI_BROKER_URL = exports.ORION_URL = exports.CORS_CREDENTIALS = exports.CORS_ORIGIN = exports.EXPRESS_PORT = void 0;
+const tslib_1 = require("tslib");
+const dotenv_1 = tslib_1.__importDefault(require("dotenv"));
+dotenv_1.default.config();
+exports.EXPRESS_PORT = process.env.EXPRESS_PORT || 3006;
+exports.CORS_ORIGIN = process.env.CORS_ORIGIN || "*";
+exports.CORS_CREDENTIALS = process.env.CORS_CREDENTIALS || "false";
+exports.ORION_URL = process.env.ORION_URL || "http://localhost:1026";
+exports.NGSI_BROKER_URL = process.env.NGSI_BROKER_URL || "http://localhost:8082";
+exports.KPIM_MEASURE_MANAGER_API_URL = process.env.KPIM_MEASURE_MANAGER_API_URL || 'http://localhost:3010';
+exports.FROST_SERVER_URL = process.env.FROST_SERVER_URL || 'http://localhost:11010/FROST-Server/v1.1';

@@ -1,0 +1,128 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano"
+  },
+  "labels": {
+    "kpis": "KPIs",
+    "search": "search",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "measures": "Measures",
+    "selected": "Selected",
+    "cancel": "Cancel",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "select-location": "Select Location",
+    "reset-location": "Reset Location",
+    "delete": "Delete",
+    "delete-all": "Delete all",
+    "required": "Mandatory field",
+    "values-form": "KPI's target",
+    "continue": "Continue",
+    "description": "Description",
+    "search": "Search"
+  },
+  "strings": {
+    "select-location": "Select or write the coordinates of the location linked to this Kpi",
+    "arrow-button-hint": "Click the arrow to the right of each resource to select it",
+    "selected-items-hint": "Resources for later calculations",
+    "kpi-description": "Description of the KPI"
+  },
+  "measures": {
+    "METER": "Meters",
+    "KILOMETER": "Kilometers",
+    "CENTIMETER": "Centimeters",
+    "MILLIMETER": "Millimeters",
+    "MICROMETER": "Micrometers",
+    "NANOMETER": "Nanometers",
+    "MILE": "Miles",
+    "YARD": "Yards",
+    "FOOT": "Feet",
+    "INCH": "Inches",
+    "KILOGRAM": "Kilograms",
+    "GRAM": "Grams",
+    "MILLIGRAM": "Milligrams",
+    "MICROGRAM": "Micrograms",
+    "TONNE": "Tonnes",
+    "POUND": "Pounds",
+    "OUNCE": "Ounces",
+    "SECOND": "Seconds",
+    "MILLISECOND": "Milliseconds",
+    "MICROSECOND": "Microseconds",
+    "NANOSECOND": "Nanoseconds",
+    "MINUTE": "Minutes",
+    "HOUR": "Hours",
+    "DAY": "Days",
+    "WEEK": "Weeks",
+    "MONTH": "Months",
+    "YEAR": "Years",
+    "LITER": "Liters",
+    "MILLILITER": "Milliliters",
+    "CUBIC_METER": "Cubic Meters",
+    "CUBIC_CENTIMETER": "Cubic Centimeters",
+    "GALLON": "Gallons",
+    "QUART": "Quarts",
+    "PINT": "Pints",
+    "CUP": "Cups",
+    "FLUID_OUNCE": "Fluid Ounces",
+    "SQUARE_METER": "Square Meters",
+    "SQUARE_KILOMETER": "Square Kilometers",
+    "SQUARE_CENTIMETER": "Square Centimeters",
+    "SQUARE_MILLIMETER": "Square Millimeters",
+    "HECTARE": "Hectares",
+    "ACRE": "Acres",
+    "METER_PER_SECOND": "Meters Per Second",
+    "KILOMETER_PER_HOUR": "Kilometers Per Hour",
+    "MILE_PER_HOUR": "Miles Per Hour",
+    "CELSIUS": "Celsius",
+    "FAHRENHEIT": "Fahrenheit",
+    "KELVIN": "Kelvin",
+    "JOULE": "Joules",
+    "KILOJOULE": "Kilojoules",
+    "CALORIE": "Calories",
+    "KILOCALORIE": "Kilocalories",
+    "WATT_HOUR": "Watt Hours",
+    "KILOWATT_HOUR": "Kilowatt Hours",
+    "PASCAL": "Pascals",
+    "KILOPASCAL": "Kilopascals",
+    "BAR": "Bars",
+    "ATMOSPHERE": "Atmospheres",
+    "TORR": "Torr",
+    "KILOGRAM_PER_CUBIC_METER": "Kilograms Per Cubic Meter",
+    "GRAM_PER_CUBIC_CENTIMETER": "Grams Per Cubic Centimeter",
+    "HERTZ": "Hertz",
+    "KILOHERTZ": "Kilohertz",
+    "MEGAHERTZ": "Megahertz",
+    "GIGAHERTZ": "Gigahertz"
+  },
+  "errors": {},
+  "tour": {
+  "help": "Start guide",
+  "next": "Next",
+  "back": "Back",
+  "done": "Done",
+  
+  "description": {
+    "title": "Description",
+    "desc": "Enter a clear description of the KPI."
+  },
+  "map": {
+    "title": "Map / geolocation",
+    "desc": "Define the geographic location or reference area."
+  },
+  "location-button": {
+    "title": "Geolocation",
+    "desc": "Click the button and select the location on the map, or enter the coordinates."
+  },
+  "measures": {
+    "title": "Select measures",
+    "desc": "Click the arrow to choose measures or previously created KPIs that will compose this KPI."
+  },
+  "continue": {
+    "title": "Save and continue",
+    "desc": "Click 'Continue' to proceed to the next step of the stepper."
+  }
+}
+}

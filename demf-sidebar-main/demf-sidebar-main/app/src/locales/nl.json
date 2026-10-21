@@ -1,0 +1,42 @@
+{
+  "languages": {
+    "en": "English",
+    "es": "Espanol",
+    "it": "Italiano",
+    "cs": "Čeština",
+    "da": "Dansk",
+    "de": "Deutsch",
+    "el": "Ελληνικά",
+    "fi": "Suomi",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "ro": "Română"
+  },
+  "labels": {
+    "language": "Taal",
+    "my-profile": "Mijn profiel",
+    "logout": "Uitloggen",
+    "mashups": "Mashups",
+    "services": "Diensten",
+    "flows": "Stromen",
+    "custom-operators": "Aangepaste operatoren",
+    "datasources": "Gegevensbronnen",
+    "favorites": "Favorieten",
+    "home": "Start",
+    "all-services": "Alle diensten",
+    "contexts": "Contexten",
+    "docs": "Documentatie",
+    "help-support": "Hulp & ondersteuning",
+    "remove-favorite-tooltip": "Verwijder favoriete dienst",
+    "databases": "Databases",
+    "rules": "Regels",
+    "kpis": "KPIs",
+    "measures": "Metingen",
+    "public-kpis": "Openbare KPI's"
+  },
+  "strings": {
+    "favorite-text-first": "Je favoriete diensten worden hier weergegeven.",
+    "favorite-text-second": "Om een dienst toe te voegen aan je favorieten, klik op de ster naast de naam.",
+    "overlay-text": "Gebruik alstublieft een apparaat met minimaal 1024×768 resolutie in landschapsmodus voor een betere ervaring."
+  }
+}

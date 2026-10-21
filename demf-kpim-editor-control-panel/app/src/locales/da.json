@@ -1,0 +1,32 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "KPI'er",
+    "search": "søg",
+    "definition": "Definition",
+    "formula": "Formel",
+    "dashboard": "Dashboard",
+    "summary": "Oversigt",
+    "page-title": "KPI'er",
+    "modify": "Modificere",
+    "delete": "Slet",
+    "cancel": "Anuller"
+  },
+  "strings": {
+    "delete-kpi-question": "Er du sikker på, at du vil slette denne KPI?",
+    "kpi-deleted": "KPI slettet"
+  },
+  "errors": {}
+}

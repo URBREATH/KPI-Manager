@@ -1,0 +1,9 @@
+{
+   "mf":"Auth",
+   "api":"http://127.0.0.1:9230/api/v1",
+   "keycloak":{
+      "url":"http://localhost:8085/auth/auth",
+      "clientId":"kpi-manager-app",
+      "enabled":false
+   }
+}

@@ -1,0 +1,50 @@
+{
+  "labels": {
+    "page-title": "KPI's",
+    "delete": "Verwijderen",
+    "cancel": "Annuleren",
+    "title": "Titel",
+    "description": "Beschrijving",
+    "accessUrl": "Toegangs-URL",
+    "format": "Formaat",
+    "license": "Licentie",
+    "frequency": "Frequentie",
+    "theme": "Thema",
+    "publisher": "Uitgever",
+    "customTags": "Aangepaste tags",
+    "location": "Locatie",
+    "distribution": "Distributie",
+    "dataset": "Dataset",
+    "next": "Volgende",
+    "back": "Terug",
+    "publish": "Publiceren",
+    "close": "Sluiten"
+  },
+  "strings": {
+    "tagsPlaceholder": "Typ en druk op Enter",
+    "delete-kpi-question": "Weet u zeker dat u deze KPI wilt verwijderen?",
+    "kpi-deleted": "KPI succesvol verwijderd.",
+    "publishCompleted": "Publicatie voltooid",
+    "publishSuccess": "De KPI is succesvol als dataset gepubliceerd in Urbreath Catalogue.",
+    "publishFailed": "Publicatie mislukt",
+    "publishAlreadyExists": "Deze dataset of distributie bestaat al in Urbreath Catalogue.",
+    "publishError": "Er is een fout opgetreden tijdens de publicatie.",
+    "historicalDataTitle": "Historische gegevens van {name}",
+    "historicalDataDescription": "Tijdreeks van KPI-waarden"
+  },
+  "themes": {
+    "agriculture": "Landbouw",
+    "economy": "Economie",
+    "education": "Onderwijs",
+    "environment": "Milieu",
+    "energy": "Energie",
+    "government": "Overheid",
+    "health": "Gezondheid",
+    "justice": "Justitie",
+    "international": "Internationaal",
+    "regions": "Regio's",
+    "society": "Samenleving",
+    "technology": "Technologie",
+    "transportation": "Vervoer"
+  }
+}

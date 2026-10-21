@@ -1,0 +1,50 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "KPI-mittarit",
+    "search": "haku",
+    "cancel": "Peruuta",
+    "continue": "Jatka",
+    "back": "Palaa  ",
+    "save": "Tallenna",
+    "status": "Status",
+    "status-running": "Käynnissä",
+    "status-stopped": "Pysähtynyt",
+    "description": "Kuvaus",
+    "target-value": "Kohde",
+    "minimum": "Minimi",
+    "maximum": "Maksimi",
+    "average": "Keskiarvo",
+    "kpi-formula": "KPI-kaava",
+    "schedule": "Aikataulu jokaista:",
+    "hour": "tuntia",
+    "minute": "minuuttia",
+    "second": "sekuntia",
+    "day": "päivää",
+    "week": "viikkoa",
+    "month": "kuukautta",
+    "quarter": "neljännestä",
+    "year": "vuotta",
+    "update": "Päivitä  ",
+    "unit-measure": "Yksikkömitta"
+  },
+  "strings": {
+    "mockup-alert": "KPI-mittari on tällä hetkellä tyhjä. Tällä sivulla näkyvät tiedot ovat vain esittelytarkoitukseen.",
+    "no-measure-formula": "Palaa kaavaan ja käytä valittua KPI-mittaria tai mittaa.",
+    "status-changed": "Päivitä ottaaksesi muutokset käyttöön"
+  },
+  "errors": {},
+  "measures": {}
+}

@@ -1,0 +1,28 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "target-value": "Τιμή-στόχος",
+    "min-value": "Ελάχιστη τιμή",
+    "max-value": "Μέγιστη τιμή",
+    "avg-value": "Μέση τιμή",
+    "cancel": "Ακύρωση",
+    "continue": "Συνέχεια",
+    "back": "Πίσω"
+  },
+  "strings": {
+    "dashboard-suggestion": "επιλέξτε τον τύπο γραφήματος με τον οποίο θέλετε να εμφανίζονται οι τιμές KPI"
+  },
+  "errors": {}
+}

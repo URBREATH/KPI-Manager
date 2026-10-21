@@ -1,0 +1,69 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "KPI'er",
+    "search": "søg",
+    "latitude": "Breddegrad",
+    "longitude": "Længde",
+    "measures": "Tiltag",
+    "selected": "Valgt",
+    "cancel": "Anuller",
+    "back": "Tilbage",
+    "next": "Næste",
+    "save": "Gem",
+    "select-location": "Vælg placering",
+    "reset-location": "Nulstil placering",
+    "delete": "Slet",
+    "delete-all": "Slet alle",
+    "required": "Pålrævet felt",
+    "values-form": "KPI's mål",
+    "continue": "Fortsæt",
+    "description": "Beskrivelse"
+  },
+  "strings": {
+    "select-location": "Vælg eller skriv koordinaterne for det sted, der er knyttet til denne Kpi",
+    "arrow-button-hint": "Klik på pilen til højre for hver ressource for at vælge den",
+    "selected-items-hint": "Ressourcer til senere beregninger",
+    "kpi-description": "KPI-beskrivelse"
+  },
+  "errors": {},
+  "tour": {
+  "help": "Start vejledning",
+  "next": "Næste",
+  "back": "Tilbage",
+  "done": "Afslut",
+  
+  "description": {
+    "title": "Beskrivelse",
+    "desc": "Indtast en tydelig beskrivelse af KPI'en."
+  },
+  "map": {
+    "title": "Kort / geolokalisering",
+    "desc": "Definér den geografiske placering eller referenceområde."
+  },
+  "location-button": {
+    "title": "Geolokalisering",
+    "desc": "Klik på knappen og vælg placeringen på kortet, eller indtast koordinaterne."
+  },
+  "measures": {
+    "title": "Vælg målinger",
+    "desc": "Klik på pilen for at vælge målinger eller tidligere oprettede KPI’er, som skal indgå i dette KPI."
+  },
+  "continue": {
+    "title": "Gem og fortsæt",
+    "desc": "Klik på 'Fortsæt' for at gå videre til næste trin i guiden."
+  }
+}
+}

@@ -1,0 +1,148 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "page-title": "Foranstaltninger",
+    "search": "søg",
+    "cancel": "Anuller",
+    "continue": "Fortsæt",
+    "back": "Tilbage",
+    "save": "Gem",
+    "name": "Navn",
+    "type": "Type",
+    "description": "Beskrivelse",
+    "method": "Metode",
+    "protocol": "Protokol",
+    "username": "Brugernavn",
+    "access-Key": "Adgangsnøgle",
+    "database-name": "Database navn",
+    "collection-name": "Samlingens navn",
+    "delete": "Slet",
+    "update": "Opdater",
+    "reset": "Nulstil",
+    "yes": "ja",
+    "no": "nej",
+    "preview": "Forhåndsvisning",
+    "bucket": "Beholder",
+    "organization": "Organisation",
+    "token": "Token",
+    "context": "Kontekst"
+  },
+  "strings": {
+    "new-measure": "ny foranstaltning",
+    "private-message": "Aktiver, hvis forbindelsen til kilden er privat.",
+    "private-advice-policy": "N.B. I redigeringstilstand kan du på grund af sikkerhedspolitikken ikke se dine gemte legitimationsoplysninger. Indtast de nye legitimationsoplysninger, hvis de er ændret.",
+    "private-connection": "Privat forbindelse:",
+    "delete-measure-question": "Er du sikker på, at du vil slette denne foranstaltning?",
+    "measure-deleted": "Foranstaltning slettet",
+    "measure-preview": "Mål forhåndsvisning",
+    "measure-has": "Foranstaltningen har",
+    "values": "værdier",
+    "show-details": "Vis alle værdier",
+    "measure-parameters-alert": "Der er et forbindelsesproblem med målekilden.\r\nTjek de angivne parametre.",
+    "name-required": "Navn er påkrævet",
+    "name-less-20-chars": "Den maksimalt tilladte længde er 20 tegn",
+    "value-required": "En værdi er påkrævet",
+    "preview-warning": "BEMÆRK: Dette er kun en forhåndsvisning, gem eller opdatering for at vedligeholde ændringer.",
+    "context-hint": "Definuje kontext, ve kterém je tato měření vyhodnocována.",
+"name-hint": "Název použitý k identifikaci této měření (max. 20 znaků).",
+"type-hint": "Vyberte typ datového zdroje, který se používá k získání měření.",
+"description-hint": "Volitelný popis k vysvětlení účelu této měření.",
+"method-hint": "HTTP metoda použitá k volání REST endpointu.",
+"protocol-hint": "Komunikační protokol použitý pro připojení k datovému zdroji.",
+"url-hint": "Adresa endpointu použitá k získání dat.",
+"port-hint": "Síťový port použitý pro připojení k datovému zdroji.",
+"jsonpath-hint": "JsonPath výraz použitý k extrakci hodnoty z odpovědi.",
+"private-connection-hint": "Povolte tuto možnost, pokud je datový zdroj přístupný pouze z privátní sítě.",
+"username-hint": "Uživatelské jméno použité pro autentizaci.",
+"organization-hint": "Název organizace použitý pro autentizaci.",
+"access-key-hint": "Přístupový klíč použitý k autentizaci požadavku.",
+"token-hint": "Autentizační token použitý pro přístup k datovému zdroji.",
+"headers-hint": "Nepovinné HTTP hlavičky odesílané s požadavkem.",
+"body-hint": "Payload odeslaný na REST endpoint.",
+"query-hint": "Dotaz použitý k získání hodnoty měření z databáze.",
+"schedule-hint": "Určuje, jak často se KPI vykonává (např. jednou týdně, každé 2 hodiny)."
+
+  },
+  "errors": {},
+  "measures": {},
+  "tour": {
+    "help": "Start vejledning",
+    "next": "Næste",
+    "back": "Tilbage",
+    "done": "Færdig",
+
+    "measure": {
+      "title": "Opret måling",
+      "intro": "En måling angiver, hvor data til KPI'erne kommer fra.\nFølg disse trin for korrekt opsætning."
+    },
+
+    "context": {
+      "title": "Kontekst",
+      "desc": "Konteksten angiver, i hvilken sammenhæng målingen bruges."
+    },
+
+    "name": {
+      "title": "Navn",
+      "desc": "Brug et klart navn:\nDet vises i KPI'erne."
+    },
+
+    "type": {
+      "title": "Type",
+      "desc": "Typen angiver, hvordan data hentes\n(API REST, database)."
+    },
+"type": {
+    "title": "Type",
+    "desc": "Typen angiver, hvordan data hentes\n(REST API, database)."
+  },
+  "description": {
+    "title": "Beskrivelse",
+    "desc": "Indtast en valgfri beskrivelse for at forklare målingens formål.\nDet hjælper dig med at forstå den, når du genbruger den i KPI’er."
+  },
+  "method": {
+    "title": "Metode",
+    "desc": "Vælg den HTTP-metode, der bruges til at kalde REST-endpointet.\n\nGET henter data.\nPOST sender data til serveren."
+  },
+  "protocol": {
+    "title": "Protokol",
+    "desc": "Definerer den kommunikationsprotokol, der bruges til at oprette forbindelse til datakilden."
+  },
+    "url": {
+      "title": "URL",
+      "desc": "Angiv adressen til datakilden.\nProtokollen håndteres automatisk."
+    },
+
+    "mapping": {
+      "title": "JsonPath",
+      "desc": "Her definerer du, hvordan den numeriske værdi udtrækkes fra svaret eller databasen."
+    },
+
+    "security": {
+      "title": "Privat forbindelse",
+      "desc": "Aktiver denne mulighed, hvis kilden er beskyttet eller kun tilgængelig med legitimationsoplysninger."
+    },
+
+    "auth": {
+      "title": "Autentificering",
+      "desc": "Indtast legitimationsoplysninger for at få adgang til data.\nOplysningerne gemmes sikkert."
+    },
+
+    "end": {
+      "title": "Færdig",
+      "desc": "Fantastisk!\nDu kan nu bruge denne måling til at oprette en eller flere KPI'er."
+    }
+  
+}
+
+}

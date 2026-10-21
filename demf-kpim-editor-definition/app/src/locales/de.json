@@ -1,0 +1,69 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "KPIs",
+    "search": "suchen",
+    "latitude": "Breite",
+    "longitude": "Länge",
+    "measures": "Maßnahmen",
+    "selected": "Ausgewählt",
+    "cancel": "Abbrechen",
+    "back": "Zurück",
+    "next": "Nächste",
+    "save": "Speichern",
+    "select-location": "Standort auswählen",
+    "reset-location": "Standort zurücksetzen",
+    "delete": "Löschen",
+    "delete-all": "Alle löschen",
+    "required": "Pflichtfeld",
+    "values-form": "KPI-Ziel",
+    "continue": "Weitermachen",
+    "description": "Beschreibung"
+  },
+  "strings": {
+    "select-location": "Auswählen oder Eingeben der Koordinaten des mit diesem KPI verknüpften Standorts",
+    "arrow-button-hint": "Klicken Sie auf den Pfeil rechts neben jeder Ressource, um sie auszuwählen",
+    "selected-items-hint": "Ressourcen für die spätere Berechnungen",
+    "kpi-description": "Beschreibung des KPI"
+  },
+  "errors": {},
+  "tour": {
+  "help": "Anleitung starten",
+  "next": "Weiter",
+  "back": "Zurück",
+  "done": "Fertig",
+  
+  "description": {
+    "title": "Beschreibung",
+    "desc": "Geben Sie eine klare Beschreibung des KPI ein."
+  },
+  "map": {
+    "title": "Karte / Geolokalisierung",
+    "desc": "Definieren Sie die geografische Position oder den Referenzbereich."
+  },
+  "location-button": {
+    "title": "Geolokalisierung",
+    "desc": "Klicken Sie auf die Schaltfläche und wählen Sie die Position auf der Karte oder geben Sie die Koordinaten ein."
+  },
+  "measures": {
+    "title": "Messungen auswählen",
+    "desc": "Klicken Sie auf den Pfeil, um Messungen oder zuvor erstellte KPI auszuwählen, die dieses KPI bilden."
+  },
+  "continue": {
+    "title": "Speichern und fortfahren",
+    "desc": "Klicken Sie auf „Weiter“, um zum nächsten Schritt des Assistenten zu gelangen."
+  }
+}
+}

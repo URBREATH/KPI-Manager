@@ -1,0 +1,28 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "target-value": "Valor objetivo",
+    "min-value": "Valor mínimo",
+    "max-value": "Valor máximo",
+    "avg-value": "Valor promedio",
+    "cancel": "Cancelar",
+    "continue": "Continuar",
+    "back": "Atrás"
+  },
+  "strings": {
+    "dashboard-suggestion": "Seleccionar el tipo de gráfico con el que desea mostrar los valores del KPI"
+  },
+  "errors": {}
+}

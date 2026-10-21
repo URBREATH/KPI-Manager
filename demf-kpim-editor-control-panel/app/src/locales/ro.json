@@ -1,0 +1,32 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "KPI-uri",
+    "search": "căutare",
+    "definition": "Definiţie",
+    "formula": "Formulă",
+    "dashboard": "Panou de monitorizare/Panou de control/ Interfață de monitorizare",
+    "summary": "Rezumat",
+    "page-title": "Pagina de titlu",
+    "modify": "Modifica",
+    "delete": "Şterge",
+    "cancel": "Anulează"
+  },
+  "strings": {
+    "delete-kpi-question": "Sigur doriți să ștergeți acest KPI?",
+    "kpi-deleted": "KPI-ul a fost șters"
+  },
+  "errors": {}
+}

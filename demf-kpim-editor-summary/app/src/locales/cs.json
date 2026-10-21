@@ -1,0 +1,50 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "KPI",
+    "search": "vyhledávání",
+    "cancel": "Zrušit",
+    "continue": "Pokračovat",
+    "back": "Zadní",
+    "save": "Uložit",
+    "status": "Postavení",
+    "status-running": "Běh",
+    "status-stopped": "Zastaveno",
+    "description": "Popis",
+    "target-value": "Cíl",
+    "minimum": "Minimální",
+    "maximum": "Maximum",
+    "average": "Průměrný",
+    "kpi-formula": "Vzorec KPI",
+    "schedule": "Plánování vždy:",
+    "hour": "hodin",
+    "minute": "zápis",
+    "second": "sekundy",
+    "day": "dní",
+    "week": "týdnů",
+    "month": "měsíce",
+    "quarter": "čtvrtletí",
+    "year": "let",
+    "update": "Aktualizovat",
+    "unit-measure": "Jednotková míra"
+  },
+  "strings": {
+    "mockup-alert": "KPI je momentálně prázdný. Údaje uvedené na této stránce slouží pouze pro demonstrační účely.",
+    "no-measure-formula": "Vraťte se prosím ke vzorci a použijte vybraný KPI nebo míru.",
+    "status-changed": "Aktualizujte pro použití změn"
+  },
+  "errors": {},
+  "measures": {}
+}

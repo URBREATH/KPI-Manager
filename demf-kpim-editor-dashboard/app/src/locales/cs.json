@@ -1,0 +1,28 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "target-value": "Cílová hodnota",
+    "min-value": "Min",
+    "max-value": "Max",
+    "avg-value": "Průměrný",
+    "cancel": "Zrušit",
+    "continue": "Pokračovat",
+    "back": "Zadní"
+  },
+  "strings": {
+    "dashboard-suggestion": "vyberte typ grafu, pomocí kterého chcete zobrazit hodnoty KPI"
+  },
+  "errors": {}
+}

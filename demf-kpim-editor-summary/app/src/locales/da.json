@@ -1,0 +1,50 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "KPI'er",
+    "search": "søg",
+    "cancel": "Anuller",
+    "continue": "Fortsæt",
+    "back": "Tilbage",
+    "save": "Gem",
+    "status": "Status",
+    "status-running": "Status - kørende",
+    "status-stopped": "Status-stoppet",
+    "description": "Beskrivelse",
+    "target-value": "Målværdi",
+    "minimum": "Minimum",
+    "maximum": "Maksimum",
+    "average": "Gennemsnit",
+    "kpi-formula": "KPI formel",
+    "schedule": "Planlægning hver:",
+    "hour": "time(r)",
+    "minute": "minut(ter)",
+    "second": "sekund(er)",
+    "day": "dag(e)",
+    "week": "uge(r)",
+    "month": "måned(er)",
+    "quarter": "kvartal(er)",
+    "year": "år",
+    "update": "Opdater",
+    "unit-measure": "Måleenhed"
+  },
+  "strings": {
+    "mockup-alert": "KPI'en er  tom. Dataene  på denne side er kun til demonstrationsformål.",
+    "no-measure-formula": "Gå tilbage til formel og brug  valgt KPI eller måling.",
+    "status-changed": "Opdater for at anvende ændringer"
+  },
+  "errors": {},
+  "measures": {}
+}

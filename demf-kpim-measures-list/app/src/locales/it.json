@@ -1,0 +1,54 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano"
+  },
+  "labels": {
+    "page-title": "Misure",
+    "name": "Nome",
+    "measures": "Misure",
+    "search": "cerca",
+    "create-measure": "Definisci misura",
+    "cancel": "Chiudi",
+    "save": "Salva",
+    "share": "Condividi",
+    "duplicate": "Duplica",
+    "delete": "Elimina",
+    "refresh": "Ricarica",
+    "description": "Descrizione",
+    "required": "Campo obbligatorio",
+    "open": "Apri",
+    "deleteMulti": "Elimina selezione",
+    "share-measure": "Condividi Misura",
+    "collaborators": "Collaboratori",
+    "role": "Ruolo",
+    "send": "Invia",
+    "select": "Seleziona"
+  },
+  "strings": {
+    "new-measure": "nuova misura",
+    "no-measures": "Questa lista è vuota",
+    "please-add-measure": "Aggiungi una nuova Misura",
+    "delete-measure-question": "Sei sicuro di voler eliminare questa Misura?",
+    "delete-measure-disclaimer-part1": "Eliminando questa Misura la rimuoverai definitivamente e tutti i KPI associati che dipendono da essa. Questa azione non può essere annullata.",
+    "delete-measure-disclaimer-part2": " Se sei sicuro, seleziona ELIMINA per confermare.",
+    "delete-multiple-measure-question": "Sei sicuro di voler eliminare le Misure selezionate?",
+    "delete-measure-text": "Misura eliminata",
+    "delete-multiple-text": "Misure eliminate",
+    "delete-measure-tooltip": "Elimina questa Misura",
+    "duplicate-measure-question": "Sei sicuro di voler duplicare questa Misura?",
+    "duplicate-advice": "ATTENZIONE: per motivi di sicurezza, se la Misura richiede delle credenziali, queste NON saranno duplicate nella nuova misura",
+    "name-required": "Il nome è obbligatorio",
+    "name-less-20-chars": "La massima lunghezza consentita è di 20 caratteri",
+    "value-required": "Un valore è obbligatorio",
+    "share-hint": "Condividi con collaboratori nella tua rete",
+    "name-hint": "Nome della misura: ",
+    "measure-shared": "Misura condivisa con successo",
+    "select-recipient": "Seleziona i tuoi collaboratori",
+    "select-role": "Seleziona il ruolo dei collaboratori"
+  },
+  "errors": {
+    "measure-name-exists": "Questo nome è già in uso",
+    "select-recipient": "Seleziona almeno un destinatario"
+  }
+}

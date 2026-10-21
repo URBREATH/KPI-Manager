@@ -1,0 +1,28 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "target-value": "Valoarea țintă",
+    "min-value": "Valoare minimă/Min",
+    "max-value": "valoare maximă/Max",
+    "avg-value": "Valoare medie",
+    "cancel": "Anula",
+    "continue": "Continua",
+    "back": "Înapoi"
+  },
+  "strings": {
+    "dashboard-suggestion": "selectați tipul de diagramă cu care doriți să afișați valorile KPI"
+  },
+  "errors": {}
+}

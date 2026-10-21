@@ -1,0 +1,147 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "page-title": "Opatření",
+    "search": "vyhledávání",
+    "cancel": "Zrušit",
+    "continue": "Pokračovat",
+    "back": "Zadní",
+    "save": "Uložit",
+    "name": "Jméno",
+    "type": "Typ",
+    "description": "Popis",
+    "method": "Metoda",
+    "protocol": "Protokol",
+    "username": "Uživatelské jméno",
+    "access-Key": "Přístupový klíč",
+    "database-name": "Název databáze",
+    "collection-name": "Název sbírky",
+    "delete": "Vymazat",
+    "update": "Aktualizovat",
+    "reset": "Resetovat",
+    "yes": "Ano",
+    "no": "žádný",
+    "preview": "Náhled",
+    "bucket": "Vědro",
+    "organization": "Organizace",
+    "token": "Žeton",
+    "context": "Kontext"
+  },
+  "strings": {
+    "new-measure": "nové opatření",
+    "private-message": "Aktivujte, pokud je připojení ke zdroji soukromé.",
+    "private-advice-policy": "N.B. V režimu úprav kvůli bezpečnostním zásadám nevidíte své uložené přihlašovací údaje. Zadejte nové přihlašovací údaje, pokud se změnily.",
+    "private-connection": "Soukromé připojení:",
+    "delete-measure-question": "Opravdu chcete toto opatření smazat?",
+    "measure-deleted": "Míra smazána",
+    "measure-preview": "Náhled měření",
+    "measure-has": "Opatření má",
+    "values": "hodnoty",
+    "show-details": "Zobrazit všechny hodnoty",
+    "measure-parameters-alert": "Došlo k problému s připojením ke zdroji měření.\r\nZkontrolujte poskytnuté parametry.",
+    "name-required": "Jméno je povinné",
+    "name-less-20-chars": "Maximální povolená délka je 20 znaků",
+    "value-required": "Je vyžadována hodnota",
+    "preview-warning": "POZNÁMKA: Toto je pouze náhled, uložení nebo aktualizace pro zachování změn.",
+    "context-hint": "Definuje kontext, ve kterém je tato měření vyhodnocována.",
+"name-hint": "Název použitý k identifikaci této měření (max. 20 znaků).",
+"type-hint": "Vyberte typ datového zdroje, který se používá k získání měření.",
+"description-hint": "Volitelný popis k vysvětlení účelu této měření.",
+"method-hint": "HTTP metoda použitá k volání REST endpointu.",
+"protocol-hint": "Komunikační protokol použitý pro připojení k datovému zdroji.",
+"url-hint": "Adresa endpointu použitá k získání dat.",
+"port-hint": "Síťový port použitý pro připojení k datovému zdroji.",
+"jsonpath-hint": "JsonPath výraz použitý k extrakci hodnoty z odpovědi.",
+"private-connection-hint": "Povolte tuto možnost, pokud je datový zdroj přístupný pouze z privátní sítě.",
+"username-hint": "Uživatelské jméno použité pro autentizaci.",
+"organization-hint": "Název organizace použitý pro autentizaci.",
+"access-key-hint": "Přístupový klíč použitý k autentizaci požadavku.",
+"token-hint": "Autentizační token použitý pro přístup k datovému zdroji.",
+"headers-hint": "Nepovinné HTTP hlavičky odesílané s požadavkem.",
+"body-hint": "Payload odeslaný na REST endpoint.",
+"query-hint": "Dotaz použitý k získání hodnoty měření z databáze.",
+"schedule-hint": "Určuje, jak často se KPI vykonává (např. jednou týdně, každé 2 hodiny)."
+
+  },
+  "errors": {},
+  "measures": {},
+"tour": {
+  "help": "Spustit průvodce",
+  "next": "Další",
+  "back": "Zpět",
+  "done": "Dokončit",
+
+  "measure": {
+    "title": "Vytvořit měření",
+    "intro": "Měření určuje, odkud pocházejí data, která použijete v KPI.\nPostupujte podle těchto kroků pro správné nastavení."
+  },
+
+  "context": {
+    "title": "Kontext",
+    "desc": "Kontext určuje oblast, ve které se měření používá\n(V tomto projektu máme jeden kontext pro každé pilotní město)."
+  },
+
+  "name": {
+    "title": "Název",
+    "desc": "Použijte jasný a srozumitelný název:\nbude zobrazen v KPI."
+  },
+
+  "type": {
+    "title": "Typ",
+    "desc": "Typ určuje, jak jsou data získávána\n(REST API, databáze)."
+  },
+
+  "description": {
+    "title": "Popis",
+    "desc": "Zadejte volitelný popis pro vysvětlení účelu měření.\nPomůže vám pochopit jeho význam při opětovném použití v KPI."
+  },
+
+  "method": {
+    "title": "Metoda",
+    "desc": "Vyberte HTTP metodu použitou pro volání REST endpointu.\n\nGET načítá data.\nPOST odesílá data na server."
+  },
+
+  "protocol": {
+    "title": "Protokol",
+    "desc": "Určuje komunikační protokol používaný pro připojení ke zdroji dat."
+  },
+
+  "url": {
+    "title": "URL",
+    "desc": "Zadejte adresu zdroje dat."
+  },
+
+  "mapping": {
+    "title": "JsonPath",
+    "desc": "Zde definujete, jak extrahovat číselnou hodnotu z odpovědi nebo z databáze."
+  },
+
+  "security": {
+    "title": "Soukromé připojení",
+    "desc": "Povolte tuto možnost, pokud je zdroj chráněn\nnebo dostupný pouze pomocí přihlašovacích údajů."
+  },
+
+  "auth": {
+    "title": "Ověření",
+    "desc": "Zadejte přihlašovací údaje potřebné pro přístup k datům.\nInformace jsou bezpečně uloženy."
+  },
+
+  "end": {
+    "title": "Dokončeno",
+    "desc": "Skvělé!\nNyní můžete toto měření použít k vytvoření jednoho nebo více KPI "
+  }
+}
+
+}

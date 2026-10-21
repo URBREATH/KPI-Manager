@@ -1,0 +1,32 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "KPI",
+    "search": "Αναζήτηση",
+    "definition": "Ορισμός",
+    "formula": "Τύπος",
+    "dashboard": "Ταμπλό",
+    "summary": "Περίληψη",
+    "page-title": "Τίτλος σελίδας",
+    "modify": "Τροποποιήση",
+    "delete": "Διαγραφή",
+    "cancel": "Ακύρωση"
+  },
+  "strings": {
+    "delete-kpi-question": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτόν τον KPI;",
+    "kpi-deleted": "KPI διαγράφηκε"
+  },
+  "errors": {}
+}

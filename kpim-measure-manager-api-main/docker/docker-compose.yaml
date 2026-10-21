@@ -1,0 +1,40 @@
+version: '3'
+services:
+  measure-manager-api:
+    image: measure-manager-api:latest
+    ports:
+      - "3000:3000"
+    environment:
+      DB_USER: postgres
+      DB_HOST: measure-manager-api-postgres
+      DB_DATABASE: postgres
+      DB_PASSWORD: postgres
+      DB_PORT: 5432
+      EXPRESS_PORT: 3000
+      ENVIRONMENT: DEV
+    depends_on:
+      - measure-manager-api-postgres
+    restart: always
+    networks:
+      - measure-net
+
+  measure-manager-api-postgres:
+    image: postgres:15.2-alpine
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - measure-net
+
+volumes:
+  postgres_data:
+
+
+networks:
+  measure-net:
+    driver: bridge

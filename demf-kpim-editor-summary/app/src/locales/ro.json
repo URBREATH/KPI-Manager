@@ -1,0 +1,50 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "KPI-uri",
+    "search": "căutare",
+    "cancel": "Anula",
+    "continue": "Continua",
+    "back": "Spate",
+    "save": "Salva",
+    "status": "Stare",
+    "status-running": "Funcţionare",
+    "status-stopped": "oprit",
+    "description": "Descriere",
+    "target-value": "Ţintă",
+    "minimum": "Minim",
+    "maximum": "Maxim",
+    "average": "Medie",
+    "kpi-formula": "Formula KPI",
+    "schedule": "Programând fiecare:",
+    "hour": "ore",
+    "minute": "minute",
+    "second": "secunde",
+    "day": "zile",
+    "week": "săptămâni",
+    "month": "luni",
+    "quarter": "sferturi",
+    "year": "ani",
+    "update": "Actualizare",
+    "unit-measure": "Unitatea de măsură"
+  },
+  "strings": {
+    "mockup-alert": "KPI-ul este momentan gol. Datele afișate pe această pagină sunt doar în scop demonstrativ.",
+    "no-measure-formula": "Vă rugăm să reveniți la formulă și să utilizați un KPI sau o măsură selectată.",
+    "status-changed": "Actualizați pentru a aplica modificări"
+  },
+  "errors": {},
+  "measures": {}
+}

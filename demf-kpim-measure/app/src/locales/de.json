@@ -1,0 +1,147 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "page-title": "Maßnahmen",
+    "search": "suchen",
+    "cancel": "Abbrechen",
+    "continue": "Weitermachen",
+    "back": "Zurück",
+    "save": "Speichern",
+    "name": "Name",
+    "type": "Typ",
+    "description": "Beschreibung",
+    "method": "Verfahren",
+    "protocol": "Protokoll",
+    "username": "Benutzername",
+    "access-Key": "Zugriffsschlüssel",
+    "database-name": "Datenbankname",
+    "collection-name": "Sammlungsname",
+    "delete": "Löschen",
+    "update": "Aktualisieren",
+    "reset": "Zurücksetzen",
+    "yes": "Ja",
+    "no": "Nein",
+    "preview": "Vorschau",
+    "bucket": "Papierkorb",
+    "organization": "Organisation",
+    "token": "Zeichen",
+    "context": "Kontext"
+  },
+  "strings": {
+    "new-measure": "neue Maßnahme",
+    "private-message": "Aktivieren, wenn die Verbindung zur Quelle privat ist.",
+    "private-advice-policy": "Hinweis: Aus Sicherheitsgründen können Sie im Bearbeitungsmodus Ihre gespeicherten Anmeldeinformationen nicht sehen. Geben Sie die neuen Anmeldeinformationen ein, wenn sie sich geändert haben.",
+    "private-connection": "Private Verbindung:",
+    "delete-measure-question": "Möchten Sie diese Maßnahme wirklich löschen?",
+    "measure-deleted": "Maßnahme gelöscht",
+    "measure-preview": "Maßnahmenvorschau",
+    "measure-has": "Die Maßnahme hat",
+    "values": "Werte",
+    "show-details": "Alle Werte anzeigen",
+    "measure-parameters-alert": "Es liegt ein Verbindungsproblem mit der Messquelle vor.\r\nÜberprüfen Sie die angegebenen Parameter.",
+    "name-required": "Name ist erforderlich",
+    "name-less-20-chars": "Die maximal zulässige Länge beträgt 20 Zeichen",
+    "value-required": "Ein Wert ist erforderlich",
+    "preview-warning": "HINWEIS: Dies ist nur eine Vorschau. Speichern oder aktualisieren Sie, um Änderungen beizubehalten.",
+    "context-hint": "Definiert den Kontext, in dem diese Messung ausgewertet wird.",
+"name-hint": "Name zur Identifizierung dieser Messung (max. 20 Zeichen).",
+"type-hint": "Wählen Sie den Datentyp aus, der zur Erfassung der Messung verwendet wird.",
+"description-hint": "Optionale Beschreibung zur Erklärung des Zwecks dieser Messung.",
+"method-hint": "HTTP-Methode, die zum Aufrufen des REST-Endpunkts verwendet wird.",
+"protocol-hint": "Kommunikationsprotokoll zur Verbindung mit der Datenquelle.",
+"url-hint": "Endpunktadresse zur Abrufung der Daten.",
+"port-hint": "Netzwerkport zur Verbindung mit der Datenquelle.",
+"jsonpath-hint": "JsonPath-Ausdruck zum Extrahieren des Werts aus der Antwort.",
+"private-connection-hint": "Aktivieren Sie diese Option, wenn die Datenquelle nur aus einem privaten Netzwerk erreichbar ist.",
+"username-hint": "Benutzername zur Authentifizierung.",
+"organization-hint": "Name der Organisation zur Authentifizierung.",
+"access-key-hint": "Zugriffsschlüssel zur Authentifizierung der Anfrage.",
+"token-hint": "Authentifizierungstoken zum Zugriff auf die Datenquelle.",
+"headers-hint": "Optionale HTTP-Header, die mit der Anfrage gesendet werden.",
+"body-hint": "Payload, das an den REST-Endpunkt gesendet wird.",
+"query-hint": "Abfrage zur Ermittlung des Messwerts aus der Datenbank.",
+"schedule-hint": "Legt fest, wie oft das KPI ausgeführt wird (z. B. einmal pro Woche, alle 2 Stunden)."
+
+  },
+  "errors": {},
+  "measures": {},
+  
+  "tour": {
+    "help": "Hilfe starten",
+    "next": "Weiter",
+    "back": "Zurück",
+    "done": "Fertig",
+
+    "measure": {
+      "title": "Maßnahme erstellen",
+      "intro": "Eine Maßnahme definiert, woher die Daten für die KPIs stammen.\nBefolgen Sie diese Schritte zur richtigen Konfiguration."
+    },
+
+    "context": {
+      "title": "Kontext",
+      "desc": "Der Kontext gibt an, in welchem Bereich die Maßnahme verwendet wird."
+    },
+
+    "name": {
+      "title": "Name",
+      "desc": "Verwenden Sie einen klaren Namen:\nEr wird in den KPIs angezeigt."
+    },
+
+    "type": {
+      "title": "Typ",
+      "desc": "Der Typ gibt an, wie die Daten abgerufen werden\n(API REST, Datenbank)."
+    },
+     
+  "description": {
+    "title": "Beschreibung",
+    "desc": "Geben Sie eine optionale Beschreibung ein, um den Zweck der Messung zu erklären.\nDies hilft Ihnen, sie bei der Wiederverwendung in KPIs besser zu verstehen."
+  },
+  "method": {
+    "title": "Methode",
+    "desc": "Wählen Sie die HTTP-Methode für den REST-Endpunkt.\n\nGET ruft Daten ab.\nPOST sendet Daten an den Server."
+  },
+  "protocol": {
+    "title": "Protokoll",
+    "desc": "Definiert das Kommunikationsprotokoll für die Verbindung zur Datenquelle."
+  },
+
+    "url": {
+      "title": "URL",
+      "desc": "Geben Sie die Adresse der Datenquelle an.\nDas Protokoll wird automatisch verwaltet."
+    },
+
+    "mapping": {
+      "title": "JsonPath",
+      "desc": "Hier definieren Sie, wie der numerische Wert aus der Antwort oder der Datenbank extrahiert wird."
+    },
+
+    "security": {
+      "title": "Private Verbindung",
+      "desc": "Aktivieren Sie diese Option, wenn die Quelle geschützt ist oder nur mit Zugangsdaten zugänglich ist."
+    },
+
+    "auth": {
+      "title": "Authentifizierung",
+      "desc": "Geben Sie die Anmeldedaten für den Zugriff auf die Daten ein.\nDie Informationen werden sicher gespeichert."
+    },
+
+    "end": {
+      "title": "Fertig",
+      "desc": "Super!\nJetzt können Sie diese Maßnahme verwenden, um einen oder mehrere KPIs zu erstellen."
+    }
+  }
+
+
+}

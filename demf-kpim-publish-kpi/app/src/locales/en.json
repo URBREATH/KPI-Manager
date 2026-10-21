@@ -1,0 +1,50 @@
+{
+  "labels": {
+    "page-title": "KPIs",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "title": "Title",
+    "description": "Description",
+    "accessUrl": "Access URL",
+    "format": "Format",
+    "license": "License",
+    "frequency": "Frequency",
+    "theme": "Theme",
+    "publisher": "Publisher",
+    "customTags": "Custom tags",
+    "location": "Location",
+    "distribution": "Distribution",
+    "dataset": "Dataset",
+    "next": "Next",
+    "back": "Back",
+    "publish": "Publish",
+    "close": "Close"
+  },
+  "strings": {
+    "tagsPlaceholder": "Type and press Enter",
+    "delete-kpi-question": "Are you sure you want to delete this KPI?",
+    "kpi-deleted": "KPI deleted successfully.",
+    "publishCompleted": "Publication completed",
+    "publishSuccess": "The KPI has been successfully published as a dataset on Urbreath Catalogue.",
+    "publishFailed": "Publication failed",
+    "publishAlreadyExists": "This dataset or distribution already exists in Urbreath Catalogue.",
+    "publishError": "An error occurred during the publication process.",
+    "historicalDataTitle": "{name} historical data",
+    "historicalDataDescription": "Time series of KPI values"
+  },
+  "themes": {
+    "agriculture": "Agriculture",
+    "economy": "Economy",
+    "education": "Education",
+    "environment": "Environment",
+    "energy": "Energy",
+    "government": "Government",
+    "health": "Health",
+    "justice": "Justice",
+    "international": "International",
+    "regions": "Regions",
+    "society": "Society",
+    "technology": "Technology",
+    "transportation": "Transportation"
+  }
+}

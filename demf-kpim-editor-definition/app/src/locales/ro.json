@@ -1,0 +1,69 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "KPI-uri",
+    "search": "căutare",
+    "latitude": "Latitudine",
+    "longitude": "Longitudine",
+    "measures": "Măsuri",
+    "selected": "Selectat",
+    "cancel": "Anula",
+    "back": "Înapoi",
+    "next": "Următorul",
+    "save": "Salva",
+    "select-location": "Selectați Locație",
+    "reset-location": "Resetați locația",
+    "delete": "Şterge",
+    "delete-all": "Ștergeți tot",
+    "required": "Câmp obligatoriu",
+    "values-form": "ținta KPI",
+    "continue": "Continua",
+    "description": "Descriere"
+  },
+  "strings": {
+    "select-location": "Selectați sau scrieți coordonatele locației asociate acestui KPI.",
+    "arrow-button-hint": "Faceți clic pe săgeata din dreapta fiecărei resurse pentru a o selecta",
+    "selected-items-hint": "Resurse pentru calcule ulterioare",
+    "kpi-description": "Descrierea KPI-ului"
+  },
+  "errors": {},
+  "tour": {
+  "help": "Pornește ghidul",
+  "next": "Următorul",
+  "back": "Înapoi",
+  "done": "Finalizare",
+  
+  "description": {
+    "title": "Descriere",
+    "desc": "Introduceți o descriere clară a KPI-ului."
+  },
+  "map": {
+    "title": "Hartă / geolocalizare",
+    "desc": "Definiți locația geografică sau zona de referință."
+  },
+  "location-button": {
+    "title": "Geolocalizare",
+    "desc": "Faceți clic pe buton și selectați locația pe hartă sau introduceți coordonatele."
+  },
+  "measures": {
+    "title": "Selectați măsuri",
+    "desc": "Faceți clic pe săgeată pentru a alege măsuri sau KPI-uri create anterior care vor compune acest KPI."
+  },
+  "continue": {
+    "title": "Salvează și continuă",
+    "desc": "Faceți clic pe „Continuă” pentru a trece la pasul următor."
+  }
+}
+}

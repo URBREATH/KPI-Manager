@@ -1,0 +1,50 @@
+{
+  "labels": {
+    "page-title": "KPI'er",
+    "delete": "Slet",
+    "cancel": "Annuller",
+    "title": "Titel",
+    "description": "Beskrivelse",
+    "accessUrl": "Adgangs-URL",
+    "format": "Format",
+    "license": "Licens",
+    "frequency": "Frekvens",
+    "theme": "Tema",
+    "publisher": "Udgiver",
+    "customTags": "Brugerdefinerede tags",
+    "location": "Placering",
+    "distribution": "Distribution",
+    "dataset": "Datasæt",
+    "next": "Næste",
+    "back": "Tilbage",
+    "publish": "Udgiv",
+    "close": "Luk"
+  },
+  "strings": {
+    "tagsPlaceholder": "Skriv og tryk på Enter",
+    "delete-kpi-question": "Er du sikker på, at du vil slette denne KPI?",
+    "kpi-deleted": "KPI'en blev slettet.",
+    "publishCompleted": "Udgivelse fuldført",
+    "publishSuccess": "KPI'en er udgivet som datasæt i Urbreath Catalogue.",
+    "publishFailed": "Udgivelsen mislykkedes",
+    "publishAlreadyExists": "Dette datasæt eller denne distribution findes allerede i Urbreath Catalogue.",
+    "publishError": "Der opstod en fejl under udgivelsen.",
+    "historicalDataTitle": "Historiske data for {name}",
+    "historicalDataDescription": "Tidsserie med KPI-værdier"
+  },
+  "themes": {
+    "agriculture": "Landbrug",
+    "economy": "Økonomi",
+    "education": "Uddannelse",
+    "environment": "Miljø",
+    "energy": "Energi",
+    "government": "Offentlig forvaltning",
+    "health": "Sundhed",
+    "justice": "Retsvæsen",
+    "international": "Internationalt",
+    "regions": "Regioner",
+    "society": "Samfund",
+    "technology": "Teknologi",
+    "transportation": "Transport"
+  }
+}

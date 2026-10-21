@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <title>KPI Manager</title>
+
+ 	<!--
+    Remove this if you only support browsers that support async/await.
+    This is needed by babel to share largeish helper code for compiling async/await in older
+    browsers. More information at https://github.com/single-spa/create-single-spa/issues/112
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/regenerator-runtime@0.13.7/runtime.min.js"></script>
+
+    <!--
+      This CSP allows any SSL-enabled host and for arbitrary eval(), but you should limit these directives further to increase your app's security.
+      Learn more about CSP policies at https://content-security-policy.com/#directive
+      -->
+  
+    <% if (!isLocal) { %>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: localhost:*; script-src 'unsafe-inline' 'unsafe-eval' https: localhost:*; connect-src https: localhost:* ws://localhost:*; style-src 'unsafe-inline' https:; object-src 'none'; img-src * 'self' data: https:;" />
+    <% } %>
+    <meta name="importmap-type" content="systemjs-importmap" />
+  
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.6.96/css/materialdesignicons.min.css" rel="stylesheet" />
+    <link href="/custom.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js"></script>
+    <script src="/environment/env.js"></script>
+    <!-- Add your organization's prod import map URL to this script's src  -->
+    <script src="/load-import-map.js"></script>
+
+    <% if (isLocal) { %>
+    <script type="systemjs-importmap">
+      {
+        "imports": {
+          "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@6.0.0/lib/es2015/system/single-spa.min.js",
+          "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
+
+          "@he_urbreath/kpim-gui": "http://localhost:9000/demf-kpim-gui.js",
+          "@he_urbreath/demf-kpis-list": "http://localhost:9911/js/app.js",
+
+
+          
+          "@he_urbreath/demf-kpim-measure": "http://localhost:9912/js/app.js",
+          "@he_urbreath/demf-kpim-editor-definition": "http://localhost:9913/js/app.js",
+          "@he_urbreath/demf-kpim-compare": "http://localhost:9914/js/app.js",
+          "@he_urbreath/demf-kpim-editor-control-panel": "http://localhost:9915/js/app.js",
+          "@he_urbreath/demf-kpim-editor-dashboard": "http://localhost:9916/js/app.js",
+          "@he_urbreath/demf-kpim-editor-formula": "http://localhost:9917/js/app.js",
+          "@he_urbreath/demf-kpim-editor-summary": "http://localhost:9918/js/app.js",
+          "@he_urbreath/demf-kpim-measures-list": "http://localhost:9919/js/app.js",
+          "@he_urbreath/demf-kpim-publish-kpi":"http://localhost:9925/js/app.js"
+        }
+      }
+    </script>
+    <% } %>
+
+    <script src="https://cdn.jsdelivr.net/npm/import-map-overrides@2.2.0/dist/import-map-overrides.js"></script>
+    <% if (isLocal) { %>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.js"></script>
+    <% } else { %>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.min.js"></script>
+    <% } %>
+
+    <style>
+  /* Nasconde la sidebar se il body ha la classe "hide-sidebar" */
+ .hide-sidebar #single-spa-application\:\@digital-enabler\/sidebar {
+  display: none !important;
+}
+ .embedded-mode main,
+.embedded-mode main  {
+  margin-left: 0 !important;
+}
+
+
+
+.embedded-mode header#upp-bar {
+    margin-left: 0 !important;
+    width: 100% !important;
+}
+
+</style>
+  </head>
+  
+  <body>
+    <div id="mainApp"></div>
+  
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <script defer src="/main.js"></script>
+    <import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full>
+  </body>
+  
+  </html>

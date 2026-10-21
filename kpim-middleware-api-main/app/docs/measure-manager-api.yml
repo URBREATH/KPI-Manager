@@ -1,0 +1,201 @@
+swagger: "2.0"
+info:
+  title: Measure manager API
+  version: "1.0.0"
+basePath: /api/v1
+paths:
+  /:tenantId/measures:
+    get:
+      tags:
+        - Measure
+      summary: Get all Measure
+      description: Get all Measure
+      operationId: getMeasure
+      responses:
+        "200":
+          description: A list of Measure
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/ResponseDtoMeasure"
+    post:
+      tags:
+        - Measure
+      summary: Create a new Measure
+      description: Create a new Measure
+      operationId: createMeasure
+      parameters:
+        - in: body
+          name: Measure
+          description: The Measure to create
+          required: true
+          schema:
+            $ref: "#/definitions/Measure"
+      responses:
+        "200":
+          description: The Measure created
+          schema:
+            $ref: "#/definitions/ResponseDtoMeasure"
+        "400":
+          description: Bad request
+    put:
+      tags:
+        - Measure
+      summary: Update a Measure
+      description: Update a Measure
+      operationId: updateMeasure
+      parameters:
+        - in: body
+          name: Measure
+          description: The Measure to update
+          required: true
+          schema:
+            $ref: "#/definitions/Measure"
+      responses:
+        "200":
+          description: The Measure updated
+          schema:
+            $ref: "#/definitions/ResponseDtoMeasure"
+        "404":
+          description: The Measure not found
+    delete:
+      tags:
+        - Measure
+      summary: Delete a Measure
+      description: Delete a Measure
+      operationId: deleteMeasure
+      parameters:
+        - in: query
+          name: id
+          description: id of Measure to delete
+          required: true
+          type: string
+          format: uuid
+      responses:
+        "204":
+          description: The Measure deleted
+          schema:
+            $ref: "#/definitions/ResponseDtoMeasure"
+        "404":
+          description: The Measure not found
+
+  /:tenantId/measures/{id}:
+    get:
+      tags:
+        - Measure
+      summary: Get Measure by id
+      description: Get Measure by id
+      operationId: getMeasureById
+      parameters:
+        - in: path
+          name: id
+          description: id of Measure to return
+          required: true
+          type: string
+          format: uuid
+      responses:
+        "200":
+          description: A Measure
+          schema:
+            $ref: "#/definitions/ResponseDtoMeasure"
+        "404":
+          description: The Measure not found
+
+definitions:
+  Measure:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+      name:
+        type: string
+      description:
+        type: string
+      lastValue:
+        type: number
+      Source:
+        type: object
+        properties:
+          schema:
+            $ref: "#/definitions/Source"
+    required:
+      - name
+      - Source
+
+  Source:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+      uri:
+        type: string
+      auth:
+        type: object
+        properties:
+          schema:
+            $ref: "#/definitions/Auth"
+      spec:
+        type: object
+        properties:
+          schema:
+            $ref: "#/definitions/Spec"
+      type:
+        type: string
+        enum:
+          - REST
+          - INFLUX
+          - POSTGRES
+          - MYSQL
+          - MONGO
+          - NEO4J
+    required:
+      - uri
+      - type
+  Auth:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+      username:
+        type: string
+      accessKey:
+        type: string
+      databaseName:
+        type: string
+  Spec:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uuid
+      jsonPath:
+        type: string
+      method:
+        type: string
+        enum:
+          - GET
+          - POST
+          - PUT
+          - DELETE
+      body:
+        type: string
+      headers:
+        type: string
+      query:
+        type: string
+
+  ResponseDtoMeasure:
+    type: object
+    properties:
+      message:
+        type: string
+      data:
+        type: object
+        properties:
+          schema:
+            $ref: "#/definitions/Measure"
+      status:
+        type: number

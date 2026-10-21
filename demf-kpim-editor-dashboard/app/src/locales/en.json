@@ -1,0 +1,19 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano"
+  },
+  "labels": {
+    "target-value": "Target Value",
+    "min-value": "Min",
+    "max-value": "Max",
+    "avg-value": "Average",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "back": "Back"
+  },
+  "strings": {
+    "dashboard-suggestion": "select the chart type you wish to display KPI values with"
+  },
+  "errors": {}
+}

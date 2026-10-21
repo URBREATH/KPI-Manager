@@ -1,0 +1,23 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano"
+  },
+  "labels": {
+    "kpis": "KPIs",
+    "search": "search",
+    "definition": "Definition",
+    "formula": "Formula",
+    "dashboard": "Dashboard",
+    "summary": "Summary",
+    "page-title": "KPIs",
+    "modify": "Modify",
+    "delete": "Delete",
+    "cancel": "Cancel"
+  },
+  "strings": {
+    "delete-kpi-question": "Are you sure you want to delete this KPI?",
+    "kpi-deleted": "KPI deleted"
+  },
+  "errors": {}
+}

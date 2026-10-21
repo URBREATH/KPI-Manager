@@ -1,0 +1,28 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "target-value": "Doelwaarde",
+    "min-value": "Minimum",
+    "max-value": "Maximum",
+    "avg-value": "Gemiddelde",
+    "cancel": "Annuleren",
+    "continue": "Doorgaan",
+    "back": "Terug"
+  },
+  "strings": {
+    "dashboard-suggestion": "Selecteer het grafiektype waarmee u KPI-waarden wilt weergeven"
+  },
+  "errors": {}
+}

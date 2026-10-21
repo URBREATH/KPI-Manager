@@ -1,0 +1,50 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "Indicateurs clés de performance",
+    "search": "recherche",
+    "cancel": "Annuler",
+    "continue": "Continuer",
+    "back": "Retour",
+    "save": "Enregistrer",
+    "status": "Statut",
+    "status-running": "En cours d'exécution",
+    "status-stopped": "Arrêté",
+    "description": "Description",
+    "target-value": "Cible",
+    "minimum": "Minimum",
+    "maximum": "Maximum",
+    "average": "Moyenne",
+    "kpi-formula": "Formule du KPI",
+    "schedule": "Programmer tous les :",
+    "hour": "heures",
+    "minute": "minutes",
+    "second": "secondes",
+    "day": "jours",
+    "week": "semaines",
+    "month": "mois",
+    "quarter": "trimestres",
+    "year": "années",
+    "update": "Actualiser",
+    "unit-measure": "Unité de mesure"
+  },
+  "strings": {
+    "mockup-alert": "Le KPI est actuellement vide. Les données affichées sur cette page le sont uniquement à des fins de démonstration.",
+    "no-measure-formula": "Veuillez revenir à la formule et utiliser un KPI ou une mesure sélectionné.",
+    "status-changed": "Mettre à jour pour appliquer les modifications"
+  },
+  "errors": {},
+  "measures": {}
+}

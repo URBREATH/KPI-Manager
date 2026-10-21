@@ -1,0 +1,42 @@
+{
+  "languages": {
+    "en": "English",
+    "es": "Espanol",
+    "it": "Italiano",
+    "cs": "Čeština",
+    "da": "Dansk",
+    "de": "Deutsch",
+    "el": "Ελληνικά",
+    "fi": "Suomi",
+    "fr": "Français",
+    "nl": "Nederlands",
+    "ro": "Română"
+  },
+  "labels": {
+    "language": "Sprog",
+    "my-profile": "Min profil",
+    "logout": "Log ud",
+    "mashups": "Mashups",
+    "services": "Tjenester",
+    "flows": "Flow",
+    "custom-operators": "Brugerdefinerede operatorer",
+    "datasources": "Datakilder",
+    "favorites": "Favoritter",
+    "home": "Hjem",
+    "all-services": "Alle tjenester",
+    "contexts": "Kontekster",
+    "docs": "Dokumenter",
+    "help-support": "Hjælp & support",
+    "remove-favorite-tooltip": "Fjern favoritservice",
+    "databases": "Databaser",
+    "rules": "Regler",
+    "kpis": "KPIs",
+    "measures": "Målinger",
+    "public-kpis": "Offentlige KPI'er"
+  },
+  "strings": {
+    "favorite-text-first": "Dine favorit‑tjenester vises her.",
+    "favorite-text-second": "For at tilføje en tjeneste til dine favoritter, klik på stjernen ved siden af navnet.",
+    "overlay-text": "Brug venligst en enhed med mindst 1024×768 opløsning i landskabs­tilstand for bedre oplevelse."
+  }
+}

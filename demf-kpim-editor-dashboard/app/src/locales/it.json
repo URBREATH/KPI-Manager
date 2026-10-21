@@ -1,0 +1,20 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano"
+  },
+  "labels": {
+    "target-value": "Obiettivo",
+    "min-value": "Min",
+    "max-value": "Max",
+    "avg-value": "Media",
+    "cancel": "Annulla",
+    "continue": "Continua",
+    "back": "Indietro"
+  },
+  "strings": {
+    "dashboard-suggestion": "Seleziona un tipo di grafico con il quale desideri visualizzare i valori del KPI"
+  },
+  "errors": {
+  }
+}

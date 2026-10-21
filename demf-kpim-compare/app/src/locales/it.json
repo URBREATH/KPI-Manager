@@ -1,0 +1,52 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano"
+  },
+  "labels": {
+    "page-title": "Compare: ",
+    "kpis-list": "KPI",
+    "search": "cerca",
+    "cancel": "Chiudi",
+    "save": "Salva",
+    "open-picker": "Selezione date",
+    "select-date": "Imposta date",
+    "select-start-date": "Data inizio",
+    "select-end-date": "Data fine",
+    "start-date": "Data inizio",
+    "end-date": "Data fine",
+    "reset": "Reset",
+    "create": "Crea grafico",
+    "ok": "Ok",
+    "hours": "Ore",
+    "minutes": "Minuti",
+    "anchor": "Ancora",
+    "left": "Sx",
+    "right": "Dx",
+    "required": "Campo obbligatorio",
+    "refresh": "Aggiorna",
+    "comparison-add": "Compara",
+    "line": "Linea",
+    "bar": "Barre",
+    "sort-AZ": "Ordina A-Z",
+    "sort-ZA": "Ordina Z-A",
+    "sort-up": "Ordina dal più vecchio",
+    "sort-down": "Ordina dal più recente",
+    "settings": "Impostazioni",
+    "round-up": "Arrotonda date per eccesso",
+    "round-down": "Arrotonda date per difetto",
+    "on": "On",
+    "off": "Off",
+    "close": "Chiudi",
+    "compare": "Compara"
+  },
+  "strings": {
+    "select-date-range": "Seleziona la data di inizio e di fine del periodo in cui confrontare i KPI",
+    "kpi-required": "Seleziona almeno un KPI",
+    "no-data": "Nessun dato nel periodo selezionato",
+    "no-match": "Non ci sono dati in comune per questi criteri di ricerca",
+    "no-items-available": "Nessun elemento disponibile",
+    "round": "Arrotonda date per difetto (predefinito): associa la data dei valori dei KPI selezionati alla più vicina precedente nel KPI principale. Associa la data alla più vicina successiva se l'arrotondamento è per eccesso."
+  },
+  "errors": {}
+}

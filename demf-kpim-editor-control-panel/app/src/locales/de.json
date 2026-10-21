@@ -1,0 +1,32 @@
+{
+  "languages": {
+    "en": "English",
+    "it": "Italiano",
+    "fr": "Français",
+    "de": "Deutsch",
+    "es": "Español",
+    "nl": "Nederlands",
+    "fi": "Suomi",
+    "da": "Dansk",
+    "el": "Ελληνικά",
+    "cs": "Čeština",
+    "ro": "Română"
+  },
+  "labels": {
+    "kpis": "KPIs",
+    "search": "suchen",
+    "definition": "Definition",
+    "formula": "Formel",
+    "dashboard": "Armaturenbrett",
+    "summary": "Zusammenfassung",
+    "page-title": "KPIs",
+    "modify": "Ändern",
+    "delete": "Löschen",
+    "cancel": "Abbrechen"
+  },
+  "strings": {
+    "delete-kpi-question": "Möchten Sie diesen KPI wirklich löschen?",
+    "kpi-deleted": "KPI gelöscht"
+  },
+  "errors": {}
+}
